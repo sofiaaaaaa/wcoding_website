@@ -1,0 +1,170 @@
+{% load static i18n %}<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+
+    {% block css %}
+    <!-- Latest compiled and minified Bootstrap 3.3.7 -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- your stuff: Third -party CSS libraries go here -->
+
+    <!-- This file stores project-specific CSS -->
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    {% endblock css %}
+
+    <!-- webfont-->
+    <link href="https://fonts.googleapis.com/css?family=Dosis:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+
+    <!-- title -->
+    <title>{% block title %}Wcoding Homepage{% endblock title %}</title>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="1">
+
+<!-- header, social Link -->
+<div class="container">
+    <a href="http://www.naver.com" target="_blank"><img class="sociallink1 naver_logo" src="{% static 'images/social_logo/NV_Gray.svg' %}" alt="Naver Logo"
+    onmouseover="naverOnHover();" onmouseout="naverOffHover();"></a>
+
+    <a href="http://www.youtube.com" target="_blank"><img class="sociallink1 youtube_logo" src="{% static 'images/social_logo/YT_Gray.svg' %}" alt="Youtube Logo"
+    onmouseover="youtubeOnHover();" onmouseout="youtubeOffHover();"></a>
+
+    <a href="http://www.facebook.com" target="_blank"><img class="sociallink1 facebook_logo" src="{% static 'images/social_logo/FB_Gray.svg' %}" alt="Facebook Logo"
+    onmouseover="facebookOnHover();" onmouseout="facebookOffHover();"></a>
+
+    <a href="http://www.instagram.com" target="_blank"><img class="sociallink1 instagram_logo" src="{% static 'images/social_logo/IG_Gray.svg' %}" alt="Instagram Logo"
+    onmouseover="instagramOnHover();" onmouseout="instagramOffHover();"></a>
+</div>
+
+<!-- navbar -->
+<nav class="navbar navbar-default" data-spy="affix" data-spy="affix" data-offset-top="90">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="{% static 'images/wcoding_logo/wcc_logo.svg' %}" alt="wcoding Logo">
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#about" id="about_hover" data-hover="{ABOUT}">ABOUT</a></li>
+                <li><a href="#programs" id="programs_hover" data-hover="{PROGRAMS}">PROGRAMS</a></li>
+                <li><a href="#news" id="news_hover" data-hover="{EVENTS}">EVENTS</a></li>
+                <li><a href="#contact" id="contact_hover" data-hover="{CONTACT}">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+{% block content %}{% endblock content %}
+
+<!-- footer -->
+<footer class="container">
+    <div class="row">
+        <div id="copyright_container" class="col-md-3">
+            <img src="{% static 'images/WLogo_White_Footer.svg' %}" alt="Wcoding footer logo">
+            <div id="copyright">
+                &copy; &nbsp; W Coding Campus 2017 &nbsp; * &nbsp; Design &nbsp; <a href="http://www.dedesignseoul.com" target="_blank">DDS</a>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <h4>EXPLORE US</h4>
+            <div class="footer_line"></div>
+            <h5><a href="#about">ABOUT</a></h5>
+            <h5><a href="#programs">PROGRAMS</a></h5>
+            <h5><a href="#news">NEWS & EVENTS</a></h5>
+            <h5><a href="#contact">CONTACT</a></h5>
+        </div>
+
+        <div class="col-md-4">
+            <h4>COMPANY INFORMATION</h4>
+            <div class="footer_line"></div>
+            <h5><span style="color: #FE6E00;">P.</span>&nbsp; 02 2923 8273</h5>
+            <h5><span style="color: #FE6E00;">A.</span>&nbsp; 서울특별시 강남구 역삼동 두꺼비 빌딩 8층 801호</h5>
+            <h5><span style="color: #FE6E00;">E.</span>&nbsp; info@wcoding.co.kr</h5>
+        </div>
+
+        <div class="col-md-3">
+            <h4>WE ARE SOCIAL</h4>
+            <div class="footer_line"></div>
+            <h5><a href="http://www.facebook.com">FACEBOOK</a></h5>
+            <h5><a href="http://www.naver.com">NAVER BLOG</a></h5>
+            <h5><a href="http://www.youtube.com">YOUTUBE</a></h5>
+            <h5><a href="http://www.instagram.com">INSTAGRAM</a></h5>
+        </div>
+    </div>
+</footer>
+
+<!-- Le javascript -->
+{% block javascript %}
+<!-- Required by Bootstrap v3.3.7 -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- social link mouseover effect -->
+<script>
+// Naver Logo image changing
+function naverOnHover()
+{
+    $(".naver_logo").attr('src', '{% static "images/social_logo/NV_Color.svg" %}');
+}
+
+function naverOffHover()
+{
+    $(".naver_logo").attr('src', '{% static "images/social_logo/NV_Gray.svg" %}');
+}
+
+// Youtube Logo image changing
+function youtubeOnHover()
+{
+    $(".youtube_logo").attr('src', '{% static "images/social_logo/YT_Color.svg" %}');
+}
+
+function youtubeOffHover()
+{
+    $(".youtube_logo").attr('src', '{% static "images/social_logo/YT_Gray.svg" %}');
+}
+
+// Facebook Logo image changing
+function facebookOnHover()
+{
+    $(".facebook_logo").attr('src', '{% static "images/social_logo/FB_Color.svg" %}');
+}
+
+function facebookOffHover()
+{
+    $(".facebook_logo").attr('src', '{% static "images/social_logo/FB_Gray.svg" %}');
+}
+
+// Instagram Logo image changing
+function instagramOnHover()
+{
+    $(".instagram_logo").attr('src', '{% static "images/social_logo/IG_Color.svg" %}');
+}
+
+function instagramOffHover()
+{
+    $(".instagram_logo").attr('src', '{% static "images/social_logo/IG_Gray.svg" %}');
+}
+</script>
+
+<!-- Your stuff: Third-party javascript libraries go here -->
+
+<!-- place project specific Javascript in this file -->
+<script src="{% static 'js/main.js' %}"></script>
+{% endblock javascript %}
+</body>
+</html>

@@ -1,0 +1,50 @@
+{% load static %}
+<!-- TODO: fixing carousel and response-->
+<!-- main section -->
+<div id="main_window" class="container-fluid">
+    <img class="img-responsive"  src="{% static 'images/MainPoster.svg' %}" alt="main image">
+    <div id="main_box" class="carousel slide">
+         <!--Indicators -->
+        <ol class="carousel-indicators carousel-indicators-numbers">
+            <li data-target="#main_box_carousel" data-slide-to="0" class="active">01</li>
+            <li data-target="#main_box_carousel" data-slide-to="1">02</li>
+            <li data-target="#main_box_carousel" data-slide-to="2">03</li>
+        </ol>
+
+         <!--Wrapper for slides-->
+        <div class="carousel-inner" role="listbox" style="height: inherit;">
+            <div class="item active main_carousel">
+                <h1>CODE YOUR WAY1 <br>
+                    TO SUCCESS</h1>
+                <h3>With W Campus you can learn the necessary coding skills to
+                    help you with your future. We provide you the necessary
+                    education taught by our successful instructors and help you
+                    achieve your goals in the world of coding.</h3>
+                <br><br>
+                <h3 class="text-right"><a class="learnMore2" href="#" style="color: #ffffff" data-hover="{ LEARN MORE }">LEARN MORE</a></h3>
+            </div>
+
+            <div class="item main_carousel">
+                <h1>CODE YOUR WAY2 <br>
+                    TO SUCCESS</h1>
+                <h3>With W Campus you can learn the necessary coding skills to
+                    help you with your future. We provide you the necessary
+                    education taught by our successful instructors and help you
+                    achieve your goals in the world of coding.</h3>
+                <br><br>
+                <h3 class="text-right"><a class="learnMore2" href="#" style="color: #ffffff" data-hover="{ LEARN MORE }">LEARN MORE</a></h3>
+            </div>
+
+            <div class="item main_carousel">
+                <h1>CODE YOUR WAY3 <br>
+                    TO SUCCESS</h1>
+                <h3>With W Campus you can learn the necessary coding skills to
+                    help you with your future. We provide you the necessary
+                    education taught by our successful instructors and help you
+                    achieve your goals in the world of coding.</h3>
+                <br><br>
+                <h3 class="text-right"><a class="learnMore2" href="#" style="color: #ffffff" data-hover="{ LEARN MORE }">LEARN MORE</a></h3>
+            </div>
+        </div>
+    </div>
+</div>
