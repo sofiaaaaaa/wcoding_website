@@ -2,14 +2,14 @@
 .sociallink1 {
     float: right;
     margin: 10px 20px;
-    width: 30px;
-    height: 28px;
+    width: 1em;
+    height: 1em;
 }
 
 .sociallink2 {
     margin: 20px;
-    width: 40px;
-    height: 30px;
+    width: 1em;
+    height: 1em;
 }
 
 /* navbar */
@@ -49,47 +49,51 @@
 
 /* navbar hover */
 #about_hover:hover, .active #about_hover {
-    font-size: 0;
-    background-color: #ffffff;
-}
-
-#about_hover:hover::after, .active #about_hover::after{
-    content: attr(data-hover);
-    font-size: 20px;
-    color: #0055F2;
+    background-color: transparent;
+    background: #0055F2;
+    background: -webkit-linear-gradient(left, #00B6F2, #0055F2);
+    background: -o-linear-gradient(right, #00B6F2, #0055F2);
+    background: -moz-linear-gradient(right, #00B6F2, #0055F2);
+    background: linear-gradient(to right, #00B6F2, #0055F2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    bottom: 2px;
 }
 
 #programs_hover:hover, .active #programs_hover {
-    font-size: 0;
-    background-color: #ffffff;
-}
-
-#programs_hover:hover::after, .active #programs_hover::after {
-    content: attr(data-hover);
-    font-size: 20px;
-    color: #00FC4C;
+    background-color: transparent;
+    background: #00FC4C;
+    background: -webkit-linear-gradient(left, #02EAAB, #00FC4C);
+    background: -o-linear-gradient(right, #02EAAB, #00FC4C);
+    background: -moz-linear-gradient(right, #02EAAB, #00FC4C);
+    background: linear-gradient(to right, #02EAAB, #00FC4C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    bottom: 2px;
 }
 
 #news_hover:hover, .active #news_hover {
-    font-size: 0;
-    background-color: #ffffff;
-}
-
-#news_hover:hover::after, .active #news_hover::after {
-    content: attr(data-hover);
-    font-size: 20px;
-    color: #ED2B66;
+    background-color: transparent;
+    background: #A50266;
+    background: -webkit-linear-gradient(left, #ED2B66, #A50266);
+    background: -o-linear-gradient(right, #ED2B66, #A50266);
+    background: -moz-linear-gradient(right, #ED2B66, #A50266);
+    background: linear-gradient(to right, #ED2B66, #A50266);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    bottom: 2px;
 }
 
 #contact_hover:hover, .active #contact_hover {
-    font-size: 0;
-    background-color: #ffffff;
-}
-
-#contact_hover:hover::after, .active #contact_hover::after {
-    content: attr(data-hover);
-    font-size: 20px;
-    color: #541DD8;
+    background-color: transparent;
+    background: #541DA6;
+    background: -webkit-linear-gradient(left, #541DD8, #541DA6);
+    background: -o-linear-gradient(right, #541DD8, #541DA6);
+    background: -moz-linear-gradient(right, #541DD8, #541DA6);
+    background: linear-gradient(to right, #541DD8, #541DA6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    bottom: 2px;
 }
 
 /* hover */
@@ -100,7 +104,14 @@
 #meetTheTeam:hover::after {
     content: attr(data-hover);
     font-size: 30px;
-    color: #0055F2;
+    background-color: transparent;
+    background: #0055F2;
+    background: -webkit-linear-gradient(left, #00B6F2, #0055F2);
+    background: -o-linear-gradient(right, #00B6F2, #0055F2);
+    background: -moz-linear-gradient(right, #00B6F2, #0055F2);
+    background: linear-gradient(to right, #00B6F2, #0055F2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-left: 15em;
 }
 
@@ -111,7 +122,14 @@
 #seeAllNews:hover::after {
     content: attr(data-hover);
     font-size: 30px;
-    color: #ED2B66;
+    background-color: transparent;
+    background: #A50266;
+    background: -webkit-linear-gradient(left, #ED2B66, #A50266);
+    background: -o-linear-gradient(right, #ED2B66, #A50266);
+    background: -moz-linear-gradient(right, #ED2B66, #A50266);
+    background: linear-gradient(to right, #ED2B66, #A50266);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #learnMore:hover {
@@ -121,7 +139,14 @@
 #learnMore:hover::after {
     content: attr(data-hover);
     font-size: 30px;
-    color: #00FC4C;
+    background-color: transparent;
+    background: #00FC4C;
+    background: -webkit-linear-gradient(left, #02EAAB, #00FC4C);
+    background: -o-linear-gradient(right, #02EAAB, #00FC4C);
+    background: -moz-linear-gradient(right, #02EAAB, #00FC4C);
+    background: linear-gradient(to right, #02EAAB, #00FC4C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .learnMore2:hover {
@@ -230,10 +255,10 @@
 
 .programs_main {
     background: #00FC4C;
-    background: -webkit-linear-gradient(left, #02EAAB, #00FC4C);
-    background: -o-linear-gradient(right, #02EAAB, #00FC4C);
-    background: -moz-linear-gradient(right, #02EAAB, #00FC4C);
-    background: linear-gradient(to right, #02EAAB, #00FC4C);
+    background: -webkit-linear-gradient(-45deg, #02EAAB, #00FC4C);
+    background: -o-linear-gradient(-45deg, #02EAAB, #00FC4C);
+    background: -moz-linear-gradient(-45deg, #02EAAB, #00FC4C);
+    background: linear-gradient(-45deg, #02EAAB, #00FC4C);
     color: #ffffff;
 }
 
@@ -254,10 +279,10 @@
 
 .news_main {
     background: #ED2B66;
-    background: -webkit-linear-gradient(left, #ED2B66, #A50266);
-    background: -o-linear-gradient(right, #ED2B66, #A50266);
-    background: -moz-linear-gradient(right, #ED2B66, #A50266);
-    background: linear-gradient(to right, #ED2B66, #A50266);
+    background: -webkit-linear-gradient(-45deg, #ED2B66, #A50266);
+    background: -o-linear-gradient(-45deg, #ED2B66, #A50266);
+    background: -moz-linear-gradient(-45deg, #ED2B66, #A50266);
+    background: linear-gradient(-45deg, #ED2B66, #A50266);
     color: #ffffff;
 }
 
@@ -288,6 +313,27 @@
 }
 
 /* bootstrap */
+.navbar-default .navbar-text {
+  color: #58595b;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #58595b;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #58595b;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #58595b;
+}
+
+.navbar-default .navbar-link {
+  color: #58595b;
+}
+
 .panel {
     border: none;
     border-radius: 0;
@@ -367,7 +413,7 @@ body {
     font-size: 20px;
     color: #58595B;
     font-family: 'Dosis', sans-serif;
-    background-image: url('../../images/background_images/Background.jpg');
+    background-image: url('../../static/images/Background.jpg');
     background-size: cover;
     /*background-position: center;*/
     background-repeat: no-repeat;
@@ -380,7 +426,6 @@ hr {
 a {
     outline: none;
     border: 0;
-    text-decoration: none;
     color: #58595B;
 }
 
