@@ -1,0 +1,8 @@
+# Pro-tip: Try not to put anything here. Avoid dependencies in
+#	production that aren't in development.
+-r production.txt
+
+# To use mysql
+mysqlclient>=1.2.12
+django-mysql>=2.1.0
+

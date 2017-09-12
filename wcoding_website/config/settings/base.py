@@ -109,12 +109,27 @@ MANAGERS = ADMINS
 # ------------------------------------------------------------------------------
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#databases
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'sqlite3',  # database location
-    }
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     'NAME': 'sqlite3',  # database location
+    # }
+    'default': env.db('DATABASE_URL', default='sqlite:///sqlite3'),
     # 'default': env.db('DATABASE_URL', default='postgres://localhost/wcoding_website'),
 }
+
+## Database Engine example for Django default:
+# 'django.db.backends.postgresql'
+# 'django.db.backends.mysql'
+# 'django.db.backends.sqlite3'
+# 'django.db.backends.oracle'
+
+## Database Engine setting example for django.environ:
+# postgres://, pgsql://, postgresql://
+# mysql://, mysql2://
+# sqlite://
+# oracle://
+# ex) psql://username:password@hostname:8458/database
+
 DATABASES['default']['ATOMIC_REQUESTS'] = True
 
 
@@ -178,7 +193,7 @@ TEMPLATES = [
 ]
 
 # See: http://django-crispy-forms.readthedocs.io/en/latest/install.html#template-packs
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
+CRISPY_TEMPLATE_PACK = 'bootstrap3'
 
 # STATIC FILE CONFIGURATION
 # ------------------------------------------------------------------------------
