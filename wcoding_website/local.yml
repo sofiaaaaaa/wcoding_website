@@ -1,0 +1,37 @@
+version: '2'
+
+volumes:
+  postgres_data_local: {}
+
+services: # define services
+  django: &django
+    # 'build' can be specified eithers as a string containing a path to the build context, or an object with the path specified under context and optionally dockerfile and args.
+    build:
+      context: . # Either a path to a directory containing a Dockerfile, or a url to a git repository.
+      dockerfile: ./compose/local/django/Dockerfile # Compose will use an alternate file to build with. A build path must also be specified.
+    depends_on: # Express dependency between service. In the following below, 'postgres' and 'mailhog' will be started before 'django'
+      - postgres
+      - mailhog
+    volumes:
+      - .:/app # Path on the host, relative to the Compose file
+    environment: # Add environment variables.
+      - POSTGRES_USER=wcoding_website
+      - USE_DOCKER=yes
+    ports: # Expose ports.
+      - "8000:8000" # (HOST:CONTAINER)
+    command: /start.sh # Override the default command.
+
+  postgres:
+    build:
+      context: .
+      dockerfile: ./compose/production/postgres/Dockerfile
+    volumes:
+      - postgres_data_local:/var/lib/postgresql/data
+#      - postgres_backup_local:/backups
+    environment:
+      - POSTGRES_USER=wcoding_website
+
+  mailhog:
+    image: mailhog/mailhog:v1.0.0 # Specify the image to start the container from. Can either be a repository/tag or a partial image ID.
+    ports:
+      - "8025:8025"

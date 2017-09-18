@@ -113,8 +113,8 @@ DATABASES = {
     #     'ENGINE': 'django.db.backends.sqlite3',
     #     'NAME': 'sqlite3',  # database location
     # }
-    'default': env.db('DATABASE_URL', default='sqlite:///sqlite3'),
-    # 'default': env.db('DATABASE_URL', default='postgres://localhost/wcoding_website'),
+    # 'default': env.db('DATABASE_URL', default='sqlite:///sqlite3'),
+    'default': env.db('DATABASE_URL', default='postgres://localhost/wcoding_website'),
 }
 
 ## Database Engine example for Django default:
