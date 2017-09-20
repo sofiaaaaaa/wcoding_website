@@ -46,8 +46,9 @@ CACHES = {
 # django-debug-toolbar
 # ------------------------------------------------------------------------------
 MIDDLEWARE += ['debug_toolbar.middleware.DebugToolbarMiddleware', ]
-INSTALLED_APPS += ['debug_toolbar', 'ckeditor', ]
+INSTALLED_APPS += ['debug_toolbar', 'ckeditor', 'ckeditor_uploader', 'posting_system', ]
 
+# 192.168.99.1 is docker-machine bridge need for django-debug-toolbar with docker
 INTERNAL_IPS = ['127.0.0.1', '192.168.99.1']
 
 
@@ -76,3 +77,7 @@ TEST_RUNNER = 'django.test.runner.DiscoverRunner'
 
 # Your local stuff: Below this line define 3rd party library settings
 # ------------------------------------------------------------------------------
+
+# CKEditor
+CKEDITOR_UPLOAD_PATH = "uploads/"
+CKEDITOR_IMAGE_BACKEND = "pillow"
