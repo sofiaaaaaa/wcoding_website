@@ -20,7 +20,10 @@ urlpatterns = [
     # Your stuff: custom urls includes go here
 
     # CKEditor
-    url(r'^ckeditor/', include('ckeditor_uploader.urls'))
+    url(r'^ckeditor/', include('ckeditor_uploader.urls')),
+
+    # posting_system
+    url(r'^post/', include('posting_system.urls', namespace='post', app_name='posting_system')),
 
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
