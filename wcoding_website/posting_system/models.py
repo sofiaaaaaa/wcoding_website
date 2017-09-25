@@ -1,3 +1,4 @@
+from django.core.urlresolvers import reverse
 from django.db import models
 from django.utils import timezone
 from django.contrib.auth import get_user_model  # django 1.11
@@ -32,6 +33,13 @@ class Post(models.Model):
 
     object = models.Manager() # The default manager
     published = PublishedManager() # Our custom manager.
+
+    def get_absolute_url(self):
+        return reverse('posting_system:post_detail',
+                       args=[self.publish.year,
+                             self.publish.strftime('%m'),
+                             self.publish.strftime('%d'),
+                             self.slug])
 
     class Meta:
         # To sort results by the publish field in descending order by default when we query the database.
