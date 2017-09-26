@@ -1,6 +1,6 @@
 # Pro-tip: Try not to put anything here. Avoid dependencies in
 #	production that aren't in development.
--r production.txt
+-r local.txt
 
 # To use mysql
 mysqlclient>=1.2.12
