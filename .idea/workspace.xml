@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56361672-4672-4008-b5a5-e23c5254fe69" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/sqlite3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/posting_system/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/posting_system/migrations/0003_auto_20170928_1445.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/posting_system/migrations/0004_post_tags.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/posting_system/templatetags/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/posting_system/templatetags/blog_tags.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/latest_posts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/share.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcoding_website/.gitignore" afterPath="$PROJECT_DIR$/wcoding_website/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcoding_website/config/settings/base.py" afterPath="$PROJECT_DIR$/wcoding_website/config/settings/base.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcoding_website/config/settings/local.py" afterPath="$PROJECT_DIR$/wcoding_website/config/settings/local.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcoding_website/posting_system/admin.py" afterPath="$PROJECT_DIR$/wcoding_website/posting_system/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcoding_website/posting_system/models.py" afterPath="$PROJECT_DIR$/wcoding_website/posting_system/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcoding_website/posting_system/urls.py" afterPath="$PROJECT_DIR$/wcoding_website/posting_system/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcoding_website/posting_system/views.py" afterPath="$PROJECT_DIR$/wcoding_website/posting_system/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcoding_website/requirements/local.txt" afterPath="$PROJECT_DIR$/wcoding_website/requirements/local.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/detail.html" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/list.html" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/list.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/wcoding_website/posting_system/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+              <caret line="39" column="28" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -77,7 +60,7 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wcoding_website/posting_system/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
+            <state relative-caret-position="247">
               <caret line="15" column="82" lean-forward="false" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
               <folding />
             </state>
@@ -104,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/list.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+              <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -136,11 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="local.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="local.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wcoding_website/config/settings/local.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1501">
-              <caret line="79" column="80" lean-forward="false" selection-start-line="79" selection-start-column="80" selection-end-line="79" selection-end-column="80" />
+            <state relative-caret-position="-296">
+              <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -229,11 +212,11 @@
         <option value="$PROJECT_DIR$/wcoding_website/posting_system/forms.py" />
         <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/detail.html" />
         <option value="$PROJECT_DIR$/wcoding_website/requirements/local.txt" />
-        <option value="$PROJECT_DIR$/wcoding_website/config/settings/local.py" />
         <option value="$PROJECT_DIR$/wcoding_website/posting_system/models.py" />
         <option value="$PROJECT_DIR$/wcoding_website/posting_system/views.py" />
         <option value="$PROJECT_DIR$/wcoding_website/posting_system/urls.py" />
         <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/list.html" />
+        <option value="$PROJECT_DIR$/wcoding_website/config/settings/local.py" />
       </list>
     </option>
   </component>
@@ -275,6 +258,19 @@
               <item name="wcoding_website" type="b2602c69:ProjectViewProjectNode" />
               <item name="wcoding_website" type="462c0819:PsiDirectoryNode" />
               <item name="wcoding_website" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wcoding_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wcoding_website" type="462c0819:PsiDirectoryNode" />
+              <item name="wcoding_website" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wcoding_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wcoding_website" type="462c0819:PsiDirectoryNode" />
+              <item name="wcoding_website" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="settings" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wcoding_website" type="b2602c69:ProjectViewProjectNode" />
@@ -562,7 +558,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506407872890</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add tagging on posting system">
+      <created>1506689729285</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1506689729285</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -572,17 +575,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="913" y="0" width="934" height="1087" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31074035" sideWeight="0.50501114" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42754367" sideWeight="0.49610245" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31654677" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43789473" sideWeight="0.49610245" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31578946" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3274244" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31654677" sideWeight="0.49779248" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2908497" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30549198" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3253389" sideWeight="0.49443206" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -685,7 +687,8 @@
     <MESSAGE value=".gitignore" />
     <MESSAGE value="changing path" />
     <MESSAGE value="fix template filter - safe" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix template filter - safe" />
+    <MESSAGE value="add tagging on posting system" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tagging on posting system" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -898,6 +901,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="117" column="1" lean-forward="true" selection-start-line="117" selection-start-column="1" selection-end-line="117" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -954,7 +958,7 @@
         <state relative-caret-position="247">
           <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -971,14 +975,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wcoding_website/config/settings/local.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1501">
-          <caret line="79" column="80" lean-forward="false" selection-start-line="79" selection-start-column="80" selection-end-line="79" selection-end-column="80" />
           <folding />
         </state>
       </provider>
@@ -1004,7 +1000,7 @@
     <entry file="file://$PROJECT_DIR$/wcoding_website/posting_system/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+          <caret line="39" column="28" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>
@@ -1021,7 +1017,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wcoding_website/posting_system/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="247">
           <caret line="15" column="82" lean-forward="false" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
           <folding />
         </state>
@@ -1040,7 +1036,15 @@
     <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wcoding_website/config/settings/local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-296">
+          <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
           <folding />
         </state>
       </provider>

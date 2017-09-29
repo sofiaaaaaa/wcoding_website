@@ -30,11 +30,8 @@ ALLOWED_HOSTS = ['*', ]
 # EMAIL_PORT = 1025
 EMAIL_PORT = 465
 
-# EMAIL_HOST = 'localhost'
-EMAIL_HOST = 'smtp.naver.com'
-EMAIL_HOST_USER = 'ultrasound2k@naver.com'
-EMAIL_HOST_PASSWORD = 'Rokoreamc913'
-EMAIL_USE_SSL = True
+EMAIL_HOST = 'localhost'
+
 EMAIL_BACKEND = env('DJANGO_EMAIL_BACKEND',
                     default='django.core.mail.backends.console.EmailBackend')
 
