@@ -27,9 +27,14 @@ ALLOWED_HOSTS = ['*', ]
 # Mail settings
 # ------------------------------------------------------------------------------
 
-EMAIL_PORT = 1025
+# EMAIL_PORT = 1025
+EMAIL_PORT = 465
 
-EMAIL_HOST = 'localhost'
+# EMAIL_HOST = 'localhost'
+EMAIL_HOST = 'smtp.naver.com'
+EMAIL_HOST_USER = 'ultrasound2k@naver.com'
+EMAIL_HOST_PASSWORD = 'Rokoreamc913'
+EMAIL_USE_SSL = True
 EMAIL_BACKEND = env('DJANGO_EMAIL_BACKEND',
                     default='django.core.mail.backends.console.EmailBackend')
 
@@ -46,7 +51,7 @@ CACHES = {
 # django-debug-toolbar
 # ------------------------------------------------------------------------------
 MIDDLEWARE += ['debug_toolbar.middleware.DebugToolbarMiddleware', ]
-INSTALLED_APPS += ['debug_toolbar', 'ckeditor', 'ckeditor_uploader', 'posting_system', ]
+INSTALLED_APPS += ['debug_toolbar', ]
 
 # 192.168.99.1 is docker-machine bridge need for django-debug-toolbar with docker
 INTERNAL_IPS = ['127.0.0.1', '192.168.99.1']
@@ -70,6 +75,9 @@ DEBUG_TOOLBAR_CONFIG = {
 # django-extensions
 # ------------------------------------------------------------------------------
 INSTALLED_APPS += ['django_extensions', ]
+
+# custom APPS
+INSTALLED_APPS += ['ckeditor', 'ckeditor_uploader', 'posting_system', 'taggit', ]
 
 # TESTING
 # ------------------------------------------------------------------------------

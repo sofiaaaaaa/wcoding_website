@@ -19,3 +19,5 @@ pytest-django==3.1.2
 pytest-sugar==0.9.0
 
 
+## custom
+django-taggit>=0.17.1
