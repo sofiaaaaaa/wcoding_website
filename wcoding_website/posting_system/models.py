@@ -3,6 +3,7 @@ from django.db import models
 from django.utils import timezone
 from django.contrib.auth import get_user_model  # django 1.11
 # from django.conf import settings # before django 1.11
+from django.utils.translation import ugettext_lazy as _
 
 from ckeditor.fields import RichTextField
 from ckeditor_uploader.fields import RichTextUploadingField
@@ -16,16 +17,19 @@ class PublishedManager(models.Manager):
 
 class Post(models.Model):
     STATUS_CHOICES = (
-        ('draft', 'Draft'),
-        ('published', 'Published'),
+        ('draft', _('Draft')),
+        ('published', _('Published')),
     )
-    title = models.CharField(max_length=250)
-    slug = models.SlugField(max_length=250, unique_for_date='publish')
+    title = models.CharField(_('Title'), max_length=250)
+    slug = models.SlugField(_('slug'), max_length=250, unique_for_date='publish')
     author = models.ForeignKey(get_user_model(), related_name='blog_posts')  # django 1.11
     # author = models.ForeignKey(settings.AUTH_USER_MODEL, related_name='blog_posts') # before django 1.11
-    # body = models.TextField()
-    # body = RichTextField()
+
+    # CKEditor
+    # body = models.TextField() : Basic Django model type
+    # body = RichTextField() : Without Image upload
     body = RichTextUploadingField()
+
     publish = models.DateTimeField(default=timezone.now)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
