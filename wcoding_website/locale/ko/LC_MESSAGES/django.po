@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-30 00:20+0900\n"
+"POT-Creation-Date: 2017-09-30 01:21+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,11 +20,11 @@ msgstr ""
 
 #: .\config\settings\base.py:155
 msgid "Korean"
-msgstr ""
+msgstr "한국어"
 
 #: .\config\settings\base.py:156
 msgid "English"
-msgstr ""
+msgstr "영어"
 
 #: .\posting_system\models.py:20
 msgid "Draft"
@@ -32,11 +32,11 @@ msgstr ""
 
 #: .\posting_system\models.py:21
 msgid "Published"
-msgstr ""
+msgstr "발행"
 
 #: .\posting_system\models.py:23
 msgid "Title"
-msgstr ""
+msgstr "제목"
 
 #: .\posting_system\models.py:24
 msgid "slug"
