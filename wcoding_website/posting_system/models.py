@@ -14,35 +14,28 @@ class PublishedManager(models.Manager):
         return super(PublishedManager, self).get_queryset().filter(status='published')
 
 
-# Category
-class Category(models.Model):
-    name = models.CharField(
-        max_length=200,
-        db_index=True,
-        help_text="Short descriptive name for this categroy."
-    )
-
-    slug = models.SlugField(
-        max_length=200,
-        db_index=True,
-        unique=True,
-        help_text="Short descriptive unique name for use in urls"
-    )
-
-    class Meta:
-        ordering = ('name',)
-        verbose_name = 'category'
-        verbose_name_plural = 'categories'
-
-    def __str__(self):
-        return self.name
-
-
 # Post
 class Post(models.Model):
     STATUS_CHOICES = (
         ('draft', 'Draft'),
         ('published', 'Published'),
+    )
+
+    CATEGORY_CHOICES = (
+        ('main_window', 'Main_window'),
+        ('meet_the_team', 'Meet_the_team'),
+        ('regular_class', 'Regular_class'),
+        ('classes', 'Classes'),
+        ('camp', 'Camp'),
+        ('best_picks', 'Best_picks'),
+        ('news_events', 'News_events'),
+    )
+
+    # category
+    category = models.CharField(
+        max_length=20,
+        choices=CATEGORY_CHOICES,
+        default='classes'
     )
 
     title = models.CharField(max_length=250)
@@ -58,6 +51,11 @@ class Post(models.Model):
     # author = models.ForeignKey(settings.AUTH_USER_MODEL, related_name='blog_posts') # before django 1.11
     # body = models.TextField()
     # body = RichTextField()
+
+    image = models.ImageField(
+        upload_to='thumbnail/%Y/%m/%d',
+        blank=True
+    )
 
     body = RichTextUploadingField()
 
@@ -76,12 +74,6 @@ class Post(models.Model):
     objects = models.Manager()  # The default manager : This is optional, and if you don't specific, the default name is 'objects'!!!
 
     published = PublishedManager()  # Our custom manager.
-
-    # category
-    category = models.ForeignKey(
-        Category,
-        related_name='posts'
-    )
 
     def get_absolute_url(self):
         return reverse('posting_system:post_detail',

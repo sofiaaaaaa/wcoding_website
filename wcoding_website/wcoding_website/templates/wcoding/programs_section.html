@@ -17,33 +17,22 @@
 <div class="container">
     <div class="row">
         <div class="col-md-4">
-            <div class="panel panel-default programs_main">
-                <div class="panel-body">
-                    <br><br><br>
-                    <h1>정규</h1>
-                    <h1>과정</h1>
-                </div>
-            </div>
+           {% for class in regular_class|slice:":1" %}
+                <img src="{{ class.image.url }}" height="230px" width="300px">
+           {% endfor %}
         </div>
 
         <div class="col-md-4">
-            <div class="panel panel-default programs_main">
-                <div class="panel-body">
-                    <br><br><br>
-                    <h1>단과</h1>
-                    <h1>과정</h1>
-                </div>
-            </div>
+            {% for class in classes|slice:":1" %}
+                <img src="{{ class.image.url }}" height="230px" width="300px">
+            {% endfor %}
+
         </div>
 
         <div class="col-md-4">
-            <div class="panel panel-default programs_main">
-                <div class="panel-body">
-                    <br><br><br>
-                    <h1>방학</h1>
-                    <h1>캠프</h1>
-                </div>
-            </div>
+            {% for camp in camps|slice:":1" %}
+                <img src="{{ camp.image.url }}" height="230px" width="300px">
+            {% endfor %}
         </div>
     </div>
 
@@ -56,44 +45,11 @@
     <h1>BEST PICKS</h1>
 
     <div class="row">
-        <div class="col-md-3">
-            <div class="panel panel-default programs_main">
-                <div class="panel-body">
-                    <br><br><br><br>
-                    <h1 style="margin: 0px;">방학</h1>
-                    <h1 style="margin-top: 0px;">캠프</h1>
-                </div>
+        {% for best_pick in best_picks|slice:":4" %}
+            <div class="col-md-3">
+                <img src="{{ best_pick.image.url }}" height="230px" width="300px">
             </div>
-        </div>
-
-        <div class="col-md-3">
-            <div class="panel panel-default programs_main">
-                <div class="panel-body">
-                    <br><br><br><br>
-                    <h2 style="margin: 0px;">SEOUL</h2>
-                    <h2 style="margin: 0px;">CAMPUS</h2>
-                    <h2 style="margin-top: 0px;">CAMP</h2>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-3">
-            <div class="panel panel-default programs_main">
-                <div class="panel-body">
-                    <br><br><br><br><br>
-                    <h2>아두이노</h2>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-3">
-            <div class="panel panel-default programs_main">
-                <div class="panel-body">
-                    <br><br><br><br><br>
-                    <h2>라즈베리파이</h2>
-                </div>
-            </div>
-        </div>
+        {% endfor %}
     </div>
 
     <section class="nanum">

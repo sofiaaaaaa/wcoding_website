@@ -13,23 +13,22 @@ class PostListView(ListView):
     template_name = 'wcoding/post/list.html'
 
 
-""" Function View
+# Function View
 def post_list(request):
     posts = Post.published.all()
-    object_list = Post.published.all()
-    paginator = Paginator(object_list, 3) # 3 posts in each page
-    page = request.GET.get('page')
-    try:
-        posts = paginator.page(page)
-    except PageNotAnInteger:
-        # If page is not an integer deliver the first page
-        posts = paginator.page(1)
-    except EmptyPage:
-        # If page is out of range deliver last page of results
-        posts = paginator.page(paginator.num_pages)
 
-    return render(request, 'wcoding/post/list.html', {'page': page, 'posts': posts})
-"""
+    regular_class = posts.filter(category='regular_class')
+
+    classes = posts.filter(category='classes')
+
+    camps = posts.filter(category='camp')
+
+    best_picks = posts.filter(category='best_picks')
+
+    return render(request, 'wcoding/index.html', {'regular_class': regular_class,
+                                                  'classes': classes,
+                                                  'camps': camps,
+                                                  'best_picks': best_picks})
 
 
 def post_detail(request, year, month, day, post):
