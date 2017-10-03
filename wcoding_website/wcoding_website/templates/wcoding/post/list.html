@@ -49,6 +49,7 @@
         {{ post.body|safe|truncatewords:30|linebreaks }}
         {% endfor %}
 
+        {% include "wcoding/post/pagination.html" with page='page' %}
         {% include "wcoding/post/pagination.html" with page=posts %}
     </div>
 {% endblock content %}

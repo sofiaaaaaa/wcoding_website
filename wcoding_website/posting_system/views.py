@@ -40,10 +40,25 @@ def post_list(request, tag_slug=None):
     except EmptyPage:
         # If page is out of range deliver last page of results
         posts = paginator.page(paginator.num_pages)
+# Function View
+def post_list(request):
+    posts = Post.published.all()
 
     return render(request, 'wcoding/post/list.html', {'page': page,
                                                       'posts': posts,
                                                       'tag': tag})
+    regular_class = posts.filter(category='regular_class')
+
+    classes = posts.filter(category='classes')
+
+    camps = posts.filter(category='camp')
+
+    best_picks = posts.filter(category='best_picks')
+
+    return render(request, 'wcoding/index.html', {'regular_class': regular_class,
+                                                  'classes': classes,
+                                                  'camps': camps,
+                                                  'best_picks': best_picks})
 
 
 def post_detail(request, year, month, day, post):

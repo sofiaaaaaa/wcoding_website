@@ -1,8 +1,8 @@
 from django.core.urlresolvers import reverse
 from django.db import models
 from django.utils import timezone
-from django.contrib.auth import get_user_model  # django 1.11
-# from django.conf import settings # before django 1.11
+from django.contrib.auth import get_user_model  # for django 1.11
+# from django.conf import settings - before django 1.11
 
 from ckeditor.fields import RichTextField
 from ckeditor_uploader.fields import RichTextUploadingField
@@ -16,25 +16,66 @@ class PublishedManager(models.Manager):
         return super(PublishedManager, self).get_queryset().filter(status='published')
 
 
+# Post
 class Post(models.Model):
     STATUS_CHOICES = (
         ('draft', 'Draft'),
         ('published', 'Published'),
     )
+
+    CATEGORY_CHOICES = (
+        ('main_window', 'Main_window'),
+        ('meet_the_team', 'Meet_the_team'),
+        ('regular_class', 'Regular_class'),
+        ('classes', 'Classes'),
+        ('camp', 'Camp'),
+        ('best_picks', 'Best_picks'),
+        ('news_events', 'News_events'),
+    )
+
+    # category
+    category = models.CharField(
+        max_length=20,
+        choices=CATEGORY_CHOICES,
+        default='classes'
+    )
+
     title = models.CharField(max_length=250)
-    slug = models.SlugField(max_length=250, unique_for_date='publish')
-    author = models.ForeignKey(get_user_model(), related_name='blog_posts')  # django 1.11
+
+    slug = models.SlugField(
+        max_length=250,
+        unique_for_date='publish'
+    )
+    author = models.ForeignKey(
+        get_user_model(),
+        related_name='posts'
+    )  # django 1.11
     # author = models.ForeignKey(settings.AUTH_USER_MODEL, related_name='blog_posts') # before django 1.11
     # body = models.TextField()
     # body = RichTextField()
-    body = RichTextUploadingField()
-    publish = models.DateTimeField(default=timezone.now)
-    created = models.DateTimeField(auto_now_add=True)
-    updated = models.DateTimeField(auto_now=True)
-    status = models.CharField(max_length=10, choices=STATUS_CHOICES, default='draft')
 
-    object = models.Manager() # The default manager
-    published = PublishedManager() # Our custom manager.
+    image = models.ImageField(
+        upload_to='thumbnail/%Y/%m/%d',
+        blank=True
+    )
+
+    body = RichTextUploadingField()
+
+    publish = models.DateTimeField(default=timezone.now)
+
+    created = models.DateTimeField(auto_now_add=True)
+
+    updated = models.DateTimeField(auto_now=True)
+
+    status = models.CharField(
+        max_length=10,
+        choices=STATUS_CHOICES,
+        default='draft'
+    )
+
+    objects = models.Manager()  # The default manager : This is optional, and if you don't specific, the default name is 'objects'!!!
+
+    published = PublishedManager()  # Our custom manager.
 
     # from taggit
     tags = TaggableManager()
@@ -53,6 +94,9 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+
+
 
 
 class Comment(models.Model):

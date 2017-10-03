@@ -5,8 +5,11 @@ from django.contrib import admin
 from django.views.generic import TemplateView
 from django.views import defaults as default_views
 
+from posting_system.views import *
+
 urlpatterns = [
-    url(r'^$', TemplateView.as_view(template_name='wcoding/index.html'), name='index'),
+    # url(r'^$', TemplateView.as_view(template_name='wcoding/index.html'), name='index'),
+    url(r'^$', post_list, name='index'),
     url(r'^home/$', TemplateView.as_view(template_name='pages/home.html'), name='home'),
     url(r'^about/$', TemplateView.as_view(template_name='pages/about.html'), name='about'),
 
