@@ -1,17 +1,21 @@
+#_*_ coding: utf-8 _*_
+
 from django.conf import settings
 from django.conf.urls import include, url
+from django.conf.urls.i18n import i18n_patterns
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.views.generic import TemplateView
 from django.views import defaults as default_views
 
+
 urlpatterns = [
-    url(r'^$', TemplateView.as_view(template_name='wcoding/index.html'), name='index'),
+    # url(r'^$', TemplateView.as_view(template_name='wcoding/index.html'), name='index'),
     url(r'^home/$', TemplateView.as_view(template_name='pages/home.html'), name='home'),
     url(r'^about/$', TemplateView.as_view(template_name='pages/about.html'), name='about'),
 
     # Django Admin, use {% url 'admin:index' %}
-    url(settings.ADMIN_URL, admin.site.urls),
+    # url(settings.ADMIN_URL, admin.site.urls),
 
     # User management
     url(r'^users/', include('wcoding_website.users.urls', namespace='users')),
@@ -23,10 +27,16 @@ urlpatterns = [
     url(r'^ckeditor/', include('ckeditor_uploader.urls')),
 
     # posting_system
-    url(r'^post/', include('posting_system.urls', namespace='post', app_name='posting_system')),
+    # url(r'^post/', include('posting_system.urls', namespace='post', app_name='posting_system')),
 
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+urlpatterns += i18n_patterns(
+    url(r'^$', TemplateView.as_view(template_name='wcoding/index.html'), name='index'),
+    url(settings.ADMIN_URL, admin.site.urls),
+    url(r'^post/', include('posting_system.urls', namespace='post', app_name='posting_system')),
+)
 
 if settings.DEBUG:
     # This allows the error pages to be debugged during development, just visit
