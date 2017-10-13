@@ -1,4 +1,4 @@
-{% load staticfiles %}
+{% load staticfiles i18n %}
 
 <!-- contact section -->
 <div id="contact" class="container">
@@ -18,13 +18,13 @@
     <div class="row">
         <div class="col-md-5">
             <h3 class="nanum" style="margin-top: 0px;">ABOUT CONTACT //</h3>
-            <h4 class="nanum">주거에 대한 압수나 수색을 할 때에는 검사의 신청에 의하여 법관이 발부한 영장을 제시하여야 한다. 국가 및 법률이 정한 단체의 회계검사와 행정기관 및 공무원의 직무에 관한 감찰을 하기 위하여 대통령 소속하에 감사원을 둔다. 한 회계연도를 넘어 계속하여 지출할 필요가 있을 때에는 정부는 연한을 정하여 계속비로서 국회의 의결을 얻어야 한다, 모든 국민은 법률이 정하는 바에 의하여 선거권을 가진다.</h4>
+            <h4 class="nanum">{% trans "Our doors are wide open to discuss and talk about all the programs that we provide. We also provide consulting about IT education, various study abroad plans and also working abroad as a software engineer. Please call us any time and we will help you set up a casual meeting with our experts." %}</h4>
             <br>
             <h4><span style="color: #541DD8;">CALL US: </span>&nbsp; 02 2923 8273</h4>
             <br>
             <h4><span style="color: #541DD8;">E-MAIL US: </span>&nbsp; INFO@WCODING.CO.KR</h4>
             <br>
-            <h4><span style="color: #541DD8;">VISIT US: </span>&nbsp; 서울특별시 강남구 역삼동 두꺼비 빌딩 8층 801호</h4>
+            <h4><span style="color: #541DD8;">VISIT US: </span>&nbsp; {% trans "Wonchang bld Unit 501, 10 Seolleung-ro 72-gil, Gangnam-gu, Seoul, South Korea" %}</h4>
             <br>
             <h4 style="color: #541DD8; display: inline">WE ARE SOCIAL!</h4>
 
@@ -47,7 +47,7 @@
             <br>
 
             <h4 style="color: #541DD8; display: inline">CONSULT WITH US!</h4>
-            <h4 style="display: inline"><a id="online_consultation" href="#" data-hover="{ ONLINE CONSULTATION }">&nbsp; ONLINE CONSULTATION</a></H4>
+            <h4 style="display: inline"><a id="online_consultation" href="#" data-hover="{ ONLINE CONSULTATION }">&nbsp; {% trans "ONLINE CONSULTATION" %}</a></H4>
         </div>
 
         <div class="col-md-7">

@@ -40,6 +40,16 @@
 
 <!-- header, social Link -->
 <div class="container">
+    {#  Language Change  #}
+    {% get_current_language as LANGUAGE_CODE %}
+    {% get_available_languages as LANGUAGES %}
+    {% get_language_info_list for LANGUAGES as languages %}
+    {% trans "Language" %}:
+    {% for language in languages %}
+        <a href="/{{ language.code }}/">{{ language.name_local }}</a>
+    {% endfor %}
+
+    {# social Link #}
     <a href="http://www.naver.com" target="_blank"><img class="sociallink1 naver_logo" src="{% static 'images/social_logo/NV_Gray.svg' %}" alt="Naver Logo"
     onmouseover="naverOnHover();" onmouseout="naverOffHover();"></a>
 
@@ -86,7 +96,7 @@
         <div id="copyright_container" class="col-md-3">
             <img src="{% static 'images/WLogo_White_Footer.svg' %}" alt="Wcoding footer logo">
             <div id="copyright">
-                &copy; &nbsp; W Coding Campus 2017 &nbsp; * &nbsp; Design &nbsp; <a href="http://www.dedesignseoul.com" target="_blank">DDS</a>
+                &copy; &nbsp; {% trans "W Coding Campus" %} 2017 &nbsp; * &nbsp; Design &nbsp; <a href="http://www.dedesignseoul.com" target="_blank">DDS</a>
             </div>
         </div>
         <div class="col-md-2">
@@ -102,7 +112,7 @@
             <h4>COMPANY INFORMATION</h4>
             <div class="footer_line"></div>
             <h5><span style="color: #FE6E00;">P.</span>&nbsp; 02 2923 8273</h5>
-            <h5><span style="color: #FE6E00;">A.</span>&nbsp; 서울특별시 강남구 역삼동 두꺼비 빌딩 8층 801호</h5>
+            <h5><span style="color: #FE6E00;">A.</span>&nbsp; {% trans "Wonchang bld Unit 501, 10 Seolleung-ro 72-gil, Gangnam-gu, Seoul, South Korea" %}</h5>
             <h5><span style="color: #FE6E00;">E.</span>&nbsp; INFO@WCODING.CO.KR</h5>
         </div>
 

@@ -1,12 +1,20 @@
+# -*- coding: utf-8 -*-
+
 from django.core.urlresolvers import reverse
 from django.db import models
 from django.utils import timezone
 from django.contrib.auth import get_user_model  # django 1.11
 # from django.conf import settings # before django 1.11
+
+# for translate
 from django.utils.translation import ugettext_lazy as _
 
+# CKEditor model
 from ckeditor.fields import RichTextField
 from ckeditor_uploader.fields import RichTextUploadingField
+
+# parler model
+from parler.models import TranslatableModel, TranslatedFields
 
 
 # model managers
@@ -15,13 +23,19 @@ class PublishedManager(models.Manager):
         return super(PublishedManager, self).get_queryset().filter(status='published')
 
 
-class Post(models.Model):
+class Post(TranslatableModel):
     STATUS_CHOICES = (
         ('draft', _('Draft')),
         ('published', _('Published')),
     )
     title = models.CharField(_('Title'), max_length=250)
     slug = models.SlugField(_('slug'), max_length=250, unique_for_date='publish')
+
+    translations = TranslatedFields(
+        title_t = models.CharField(max_length=200, db_index=True),
+        slug_t = models.SlugField(max_length=200, unique_for_date='publish')
+    )
+
     author = models.ForeignKey(get_user_model(), related_name='blog_posts')  # django 1.11
     # author = models.ForeignKey(settings.AUTH_USER_MODEL, related_name='blog_posts') # before django 1.11
 
@@ -30,13 +44,13 @@ class Post(models.Model):
     # body = RichTextField() : Without Image upload
     body = RichTextUploadingField()
 
-    publish = models.DateTimeField(default=timezone.now)
+    publish = models.DateTimeField(_('publish'), default=timezone.now)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
-    status = models.CharField(max_length=10, choices=STATUS_CHOICES, default='draft')
+    status = models.CharField(_('Status'), max_length=10, choices=STATUS_CHOICES, default='draft')
 
-    object = models.Manager() # The default manager
-    published = PublishedManager() # Our custom manager.
+    object = models.Manager()  # The default manager
+    published = PublishedManager()  # Our custom manager.
 
     def get_absolute_url(self):
         return reverse('posting_system:post_detail',

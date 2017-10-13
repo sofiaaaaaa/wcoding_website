@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-30 01:21+0900\n"
+"POT-Creation-Date: 2017-10-13 09:04+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,6 +25,10 @@ msgstr ""
 msgid "English"
 msgstr ""
 
+#: .\config\urls.py:38
+msgid "^post/"
+msgstr ""
+
 #: .\posting_system\models.py:20
 msgid "Draft"
 msgstr ""
@@ -39,6 +43,19 @@ msgstr ""
 
 #: .\posting_system\models.py:24
 msgid "slug"
+msgstr ""
+
+#: .\posting_system\models.py:33
+msgid "publish"
+msgstr ""
+
+#: .\posting_system\models.py:36
+msgid "Status"
+msgstr ""
+
+#: .\posting_system\urls.py:12
+#, python-brace-format
+msgid "^(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<post>[-\\w]+)/$"
 msgstr ""
 
 #: .\wcoding_website\templates\account\account_inactive.html:5
@@ -299,6 +316,90 @@ msgstr ""
 
 #: .\wcoding_website\templates\base.html:49
 msgid "My Profile"
+msgstr ""
+
+#: .\wcoding_website\templates\wcoding\about_section.html:24
+msgid ""
+"We believe Korea has some of the brightest, most talented people in the "
+"world. We are only held back by old conventional thinking that stifles "
+"creativity and innovation. Effective education does not come from leaving "
+"most students behind so that we can find best and pretend that we made them "
+"great. We think all students are great, and we want to help them find that "
+"potential. We want Korea to be a leader in the software industry. Will you "
+"join us?"
+msgstr ""
+
+#: .\wcoding_website\templates\wcoding\base.html:89
+msgid "W Coding Campus"
+msgstr ""
+
+#: .\wcoding_website\templates\wcoding\base.html:105
+#: .\wcoding_website\templates\wcoding\contact_section.html:27
+msgid ""
+"Wonchang bld Unit 501, 10 Seolleung-ro 72-gil, Gangnam-gu, Seoul, South Korea"
+msgstr ""
+
+#: .\wcoding_website\templates\wcoding\contact_section.html:21
+msgid ""
+"Our doors are wide open to discuss and talk about all the programs that we "
+"provide. We also provide consulting about IT education, various study abroad "
+"plans and also working abroad as a software engineer. Please call us any "
+"time and we will help you set up a casual meeting with our experts."
+msgstr ""
+
+#: .\wcoding_website\templates\wcoding\contact_section.html:50
+msgid "ONLINE CONSULTATION"
+msgstr ""
+
+#: .\wcoding_website\templates\wcoding\news_events_section.html:24
+msgid "UPCOMING"
+msgstr ""
+
+#: .\wcoding_website\templates\wcoding\news_events_section.html:25
+#: .\wcoding_website\templates\wcoding\news_events_section.html:202
+msgid "EVENTS"
+msgstr ""
+
+#: .\wcoding_website\templates\wcoding\news_events_section.html:201
+msgid "PAST"
+msgstr ""
+
+#: .\wcoding_website\templates\wcoding\news_events_section.html:209
+msgid ""
+"wcoding plans monthly free seminars and events concerning programming and IT "
+"education! If you want to receive information about these events, please "
+"subscribe to our mailing list!"
+msgstr ""
+
+#: .\wcoding_website\templates\wcoding\programs_section.html:23
+msgid "Full-time"
+msgstr ""
+
+#: .\wcoding_website\templates\wcoding\programs_section.html:24
+#: .\wcoding_website\templates\wcoding\programs_section.html:34
+msgid "Course"
+msgstr ""
+
+#: .\wcoding_website\templates\wcoding\programs_section.html:33
+msgid "Part-time"
+msgstr ""
+
+#: .\wcoding_website\templates\wcoding\programs_section.html:43
+msgid "Summer & Winter"
+msgstr ""
+
+#: .\wcoding_website\templates\wcoding\programs_section.html:44
+msgid "Camp"
+msgstr ""
+
+#: .\wcoding_website\templates\wcoding\programs_section.html:51
+msgid "explanation progrmas section"
+msgstr ""
+
+#: .\wcoding_website\templates\wcoding\programs_section.html:98
+msgid ""
+"Learn to Code and English at the same time & Pick the course that intrigues "
+"you!"
 msgstr ""
 
 #: .\wcoding_website\users\models.py:13

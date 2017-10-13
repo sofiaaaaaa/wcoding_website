@@ -78,6 +78,23 @@ TEST_RUNNER = 'django.test.runner.DiscoverRunner'
 # Your local stuff: Below this line define 3rd party library settings
 # ------------------------------------------------------------------------------
 
+# django-rosetta
+INSTALLED_APPS +=['rosetta', ]
+
+# django-parler
+INSTALLED_APPS +=['parler', ]
+
+PARLER_LANGUAGES = {
+    None: (
+        {'code': 'en', },
+        {'code': 'ko', },
+    ),
+    'default': {
+        'fallback': 'en',
+        'hide_untranslated': False,
+    }
+}
+
 # CKEditor
 CKEDITOR_UPLOAD_PATH = "uploads/"
 CKEDITOR_IMAGE_BACKEND = "pillow"
