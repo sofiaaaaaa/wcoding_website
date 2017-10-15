@@ -46,6 +46,9 @@ DJANGO_APPS = [
     # Useful template tags:
     # 'django.contrib.humanize',
 
+    # django-modeltranslation
+    'modeltranslation',
+
     # Admin
     'django.contrib.admin',
 ]
@@ -151,10 +154,20 @@ TIME_ZONE = 'Asia/Seoul'
 LANGUAGE_CODE = 'en-us'
 # LANGUAGE_CODE = 'ko-KR'
 
+# Django to be able to(statically) translate the verbose names of the languages using the standard 'i18n' solution.
+gettext = lambda s: s
+
 LANGUAGES = [
-    ('ko', _('Korean')),
     ('en', _('English')),
+    ('ko', _('Korean')),
 ]
+
+MODELTRANSLATION_DEFAULT_LANGUAGE = 'en'
+MODELTRANSLATION_TRANSLATION_FILES = {
+    'posting_system.translation',
+}
+MODELTRANSLATION_DEBUG = True
+
 
 LOCALE_PATHS = (
     str(ROOT_DIR.path('locale')),

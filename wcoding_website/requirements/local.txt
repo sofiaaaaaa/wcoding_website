@@ -21,5 +21,5 @@ pytest-sugar==0.9.0
 # Rosetta: eases the translation process of Django projects
 django-rosetta==0.7.13
 
-# Parler: Translating models
-django-parler==1.8
+# django-modeltranslation
+django-modeltranslation>=0.12.1

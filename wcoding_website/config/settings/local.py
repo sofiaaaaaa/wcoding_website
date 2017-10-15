@@ -46,7 +46,7 @@ CACHES = {
 # django-debug-toolbar
 # ------------------------------------------------------------------------------
 MIDDLEWARE += ['debug_toolbar.middleware.DebugToolbarMiddleware', ]
-INSTALLED_APPS += ['debug_toolbar', 'ckeditor', 'ckeditor_uploader', 'posting_system', ]
+INSTALLED_APPS += ['debug_toolbar', ]
 
 # 192.168.99.1 is docker-machine bridge need for django-debug-toolbar with docker
 INTERNAL_IPS = ['127.0.0.1', '192.168.99.1']
@@ -81,20 +81,11 @@ TEST_RUNNER = 'django.test.runner.DiscoverRunner'
 # django-rosetta
 INSTALLED_APPS +=['rosetta', ]
 
-# django-parler
-INSTALLED_APPS +=['parler', ]
-
-PARLER_LANGUAGES = {
-    None: (
-        {'code': 'en', },
-        {'code': 'ko', },
-    ),
-    'default': {
-        'fallback': 'en',
-        'hide_untranslated': False,
-    }
-}
-
 # CKEditor
+INSTALLED_APPS +=['ckeditor', 'ckeditor_uploader', ]
 CKEDITOR_UPLOAD_PATH = "uploads/"
 CKEDITOR_IMAGE_BACKEND = "pillow"
+
+
+# posting_system
+INSTALLED_APPS +=['posting_system', ]

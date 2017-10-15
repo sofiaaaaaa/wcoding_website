@@ -13,9 +13,6 @@ from django.utils.translation import ugettext_lazy as _
 from ckeditor.fields import RichTextField
 from ckeditor_uploader.fields import RichTextUploadingField
 
-# parler model
-from parler.models import TranslatableModel, TranslatedFields
-
 
 # model managers
 class PublishedManager(models.Manager):
@@ -23,33 +20,52 @@ class PublishedManager(models.Manager):
         return super(PublishedManager, self).get_queryset().filter(status='published')
 
 
-class Post(TranslatableModel):
+class Post(models.Model):
     STATUS_CHOICES = (
         ('draft', _('Draft')),
         ('published', _('Published')),
     )
-    title = models.CharField(_('Title'), max_length=250)
-    slug = models.SlugField(_('slug'), max_length=250, unique_for_date='publish')
 
-    translations = TranslatedFields(
-        title_t = models.CharField(max_length=200, db_index=True),
-        slug_t = models.SlugField(max_length=200, unique_for_date='publish')
+    title = models.CharField(
+        _('Title'),
+        max_length=250
     )
 
-    author = models.ForeignKey(get_user_model(), related_name='blog_posts')  # django 1.11
+    slug = models.SlugField(
+        _('Slug'),
+        max_length=250,
+        unique_for_date='publish'
+    )
+
+    author = models.ForeignKey(
+        get_user_model(),
+        related_name='blog_posts',
+        verbose_name=_('Author')
+    )  # django 1.11
     # author = models.ForeignKey(settings.AUTH_USER_MODEL, related_name='blog_posts') # before django 1.11
 
     # CKEditor
     # body = models.TextField() : Basic Django model type
     # body = RichTextField() : Without Image upload
-    body = RichTextUploadingField()
+    body = RichTextUploadingField(_('Body'))
 
-    publish = models.DateTimeField(_('publish'), default=timezone.now)
+    publish = models.DateTimeField(
+        _('Publish'),
+        default=timezone.now
+    )
+
     created = models.DateTimeField(auto_now_add=True)
-    updated = models.DateTimeField(auto_now=True)
-    status = models.CharField(_('Status'), max_length=10, choices=STATUS_CHOICES, default='draft')
 
-    object = models.Manager()  # The default manager
+    updated = models.DateTimeField(auto_now=True)
+
+    status = models.CharField(
+        _('Status'),
+        max_length=10,
+        choices=STATUS_CHOICES,
+        default='draft'
+    )
+
+    objects = models.Manager()  # The default manager
     published = PublishedManager()  # Our custom manager.
 
     def get_absolute_url(self):
@@ -60,6 +76,9 @@ class Post(TranslatableModel):
                              self.slug])
 
     class Meta:
+        verbose_name = _("Post")
+        verbose_name_plural = _("Posts")
+
         # To sort results by the publish field in descending order by default when we query the database.
         # negative prefix is descending order
         ordering = ('-publish',)

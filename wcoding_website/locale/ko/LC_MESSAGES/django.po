@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-13 09:04+0900\n"
-"PO-Revision-Date: 2017-10-13 09:12+0828\n"
+"POT-Creation-Date: 2017-10-14 23:07+0900\n"
+"PO-Revision-Date: 2017-10-14 23:30+0828\n"
 "Last-Translator: b'  <>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -19,46 +19,54 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Translated-Using: django-rosetta 0.7.13\n"
 
-#: .\config\settings\base.py:155
-msgid "Korean"
-msgstr "한국어"
-
-#: .\config\settings\base.py:156
+#: .\config\settings\base.py:161
 msgid "English"
 msgstr "영어"
 
-#: .\config\urls.py:38
-msgid "^post/"
-msgstr "포스트"
+#: .\config\settings\base.py:162
+msgid "Korean"
+msgstr "한국어"
 
-#: .\posting_system\models.py:20
+#: .\posting_system\models.py:28
 msgid "Draft"
 msgstr "초안"
 
-#: .\posting_system\models.py:21
+#: .\posting_system\models.py:29
 msgid "Published"
 msgstr "발행"
 
-#: .\posting_system\models.py:23
+#: .\posting_system\models.py:33
 msgid "Title"
 msgstr "제목"
 
-#: .\posting_system\models.py:24
-msgid "slug"
-msgstr "포스트"
+#: .\posting_system\models.py:38
+msgid "Slug"
+msgstr "슬러그"
 
-#: .\posting_system\models.py:33
-msgid "publish"
-msgstr "발행"
+#: .\posting_system\models.py:51
+msgid "Author"
+msgstr "작성자"
 
-#: .\posting_system\models.py:36
+#: .\posting_system\models.py:58
+msgid "Body"
+msgstr "본문"
+
+#: .\posting_system\models.py:61
+#| msgid "Published"
+msgid "Publish"
+msgstr "발행일"
+
+#: .\posting_system\models.py:70
 msgid "Status"
 msgstr "상태"
 
-#: .\posting_system\urls.py:12
-#, python-brace-format
-msgid "^(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<post>[-\\w]+)/$"
-msgstr ""
+#: .\posting_system\models.py:87
+msgid "Post"
+msgstr "포스트"
+
+#: .\posting_system\models.py:88
+msgid "Posts"
+msgstr "포스트"
 
 #: .\wcoding_website\templates\account\account_inactive.html:5
 #: .\wcoding_website\templates\account\account_inactive.html:8
@@ -335,11 +343,15 @@ msgstr ""
 "각자만의 재능이 있다는 것을 알기에 그들만의 잠재성을 찾아주고 싶습니다. 우리는 대한민국이 세계의 소프트웨어 산업을 이끌어가는 주도 "
 "국가가 되기를 바랍니다. 저희와 함께 하시겠습니까?"
 
-#: .\wcoding_website\templates\wcoding\base.html:89
+#: .\wcoding_website\templates\wcoding\base.html:47
+msgid "Language"
+msgstr ""
+
+#: .\wcoding_website\templates\wcoding\base.html:99
 msgid "W Coding Campus"
 msgstr "더블유코딩 캠퍼스"
 
-#: .\wcoding_website\templates\wcoding\base.html:105
+#: .\wcoding_website\templates\wcoding\base.html:115
 #: .\wcoding_website\templates\wcoding\contact_section.html:27
 msgid ""
 "Wonchang bld Unit 501, 10 Seolleung-ro 72-gil, Gangnam-gu, Seoul, South "
@@ -418,3 +430,12 @@ msgstr "영어와 코딩을 동시에 수강하는 정규과정 & 취향대로 �
 #: .\wcoding_website\users\models.py:13
 msgid "Name of User"
 msgstr ""
+
+#~ msgid "^post/"
+#~ msgstr "포스트"
+
+#~ msgid "slug"
+#~ msgstr "포스트"
+
+#~ msgid "publish"
+#~ msgstr "발행"
