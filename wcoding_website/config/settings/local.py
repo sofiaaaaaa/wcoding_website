@@ -83,6 +83,14 @@ TEST_RUNNER = 'django.test.runner.DiscoverRunner'
 # Your local stuff: Below this line define 3rd party library settings
 # ------------------------------------------------------------------------------
 
+# django-rosetta
+INSTALLED_APPS +=['rosetta', ]
+
 # CKEditor
+INSTALLED_APPS +=['ckeditor', 'ckeditor_uploader', ]
 CKEDITOR_UPLOAD_PATH = "uploads/"
 CKEDITOR_IMAGE_BACKEND = "pillow"
+
+
+# posting_system
+INSTALLED_APPS +=['posting_system', ]

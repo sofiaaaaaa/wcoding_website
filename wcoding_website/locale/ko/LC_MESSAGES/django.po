@@ -1,0 +1,441 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-14 23:07+0900\n"
+"PO-Revision-Date: 2017-10-14 23:30+0828\n"
+"Last-Translator: b'  <>'\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Translated-Using: django-rosetta 0.7.13\n"
+
+#: .\config\settings\base.py:161
+msgid "English"
+msgstr "영어"
+
+#: .\config\settings\base.py:162
+msgid "Korean"
+msgstr "한국어"
+
+#: .\posting_system\models.py:28
+msgid "Draft"
+msgstr "초안"
+
+#: .\posting_system\models.py:29
+msgid "Published"
+msgstr "발행"
+
+#: .\posting_system\models.py:33
+msgid "Title"
+msgstr "제목"
+
+#: .\posting_system\models.py:38
+msgid "Slug"
+msgstr "슬러그"
+
+#: .\posting_system\models.py:51
+msgid "Author"
+msgstr "작성자"
+
+#: .\posting_system\models.py:58
+msgid "Body"
+msgstr "본문"
+
+#: .\posting_system\models.py:61
+#| msgid "Published"
+msgid "Publish"
+msgstr "발행일"
+
+#: .\posting_system\models.py:70
+msgid "Status"
+msgstr "상태"
+
+#: .\posting_system\models.py:87
+msgid "Post"
+msgstr "포스트"
+
+#: .\posting_system\models.py:88
+msgid "Posts"
+msgstr "포스트"
+
+#: .\wcoding_website\templates\account\account_inactive.html:5
+#: .\wcoding_website\templates\account\account_inactive.html:8
+msgid "Account Inactive"
+msgstr ""
+
+#: .\wcoding_website\templates\account\account_inactive.html:10
+msgid "This account is inactive."
+msgstr ""
+
+#: .\wcoding_website\templates\account\email.html:7
+msgid "Account"
+msgstr ""
+
+#: .\wcoding_website\templates\account\email.html:10
+msgid "E-mail Addresses"
+msgstr ""
+
+#: .\wcoding_website\templates\account\email.html:13
+msgid "The following e-mail addresses are associated with your account:"
+msgstr ""
+
+#: .\wcoding_website\templates\account\email.html:27
+msgid "Verified"
+msgstr ""
+
+#: .\wcoding_website\templates\account\email.html:29
+msgid "Unverified"
+msgstr ""
+
+#: .\wcoding_website\templates\account\email.html:31
+msgid "Primary"
+msgstr ""
+
+#: .\wcoding_website\templates\account\email.html:37
+msgid "Make Primary"
+msgstr ""
+
+#: .\wcoding_website\templates\account\email.html:38
+msgid "Re-send Verification"
+msgstr ""
+
+#: .\wcoding_website\templates\account\email.html:39
+msgid "Remove"
+msgstr ""
+
+#: .\wcoding_website\templates\account\email.html:46
+msgid "Warning:"
+msgstr ""
+
+#: .\wcoding_website\templates\account\email.html:46
+msgid ""
+"You currently do not have any e-mail address set up. You should really add "
+"an e-mail address so you can receive notifications, reset your password, "
+"etc."
+msgstr ""
+
+#: .\wcoding_website\templates\account\email.html:51
+msgid "Add E-mail Address"
+msgstr ""
+
+#: .\wcoding_website\templates\account\email.html:56
+msgid "Add E-mail"
+msgstr ""
+
+#: .\wcoding_website\templates\account\email.html:66
+msgid "Do you really want to remove the selected e-mail address?"
+msgstr ""
+
+#: .\wcoding_website\templates\account\email_confirm.html:6
+#: .\wcoding_website\templates\account\email_confirm.html:10
+msgid "Confirm E-mail Address"
+msgstr ""
+
+#: .\wcoding_website\templates\account\email_confirm.html:16
+#, python-format
+msgid ""
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"address for user %(user_display)s."
+msgstr ""
+
+#: .\wcoding_website\templates\account\email_confirm.html:20
+msgid "Confirm"
+msgstr ""
+
+#: .\wcoding_website\templates\account\email_confirm.html:27
+#, python-format
+msgid ""
+"This e-mail confirmation link expired or is invalid. Please <a "
+"href=\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+msgstr ""
+
+#: .\wcoding_website\templates\account\login.html:7
+#: .\wcoding_website\templates\account\login.html:11
+#: .\wcoding_website\templates\account\login.html:44
+#: .\wcoding_website\templates\base.html:62
+msgid "Sign In"
+msgstr ""
+
+#: .\wcoding_website\templates\account\login.html:16
+#, python-format
+msgid ""
+"Please sign in with one\n"
+"of your existing third party accounts. Or, <a href=\"%(signup_url)s\">sign up</a>\n"
+"for a %(site_name)s account and sign in below:"
+msgstr ""
+
+#: .\wcoding_website\templates\account\login.html:26
+msgid "or"
+msgstr ""
+
+#: .\wcoding_website\templates\account\login.html:33
+#, python-format
+msgid ""
+"If you have not created an account yet, then please\n"
+"<a href=\"%(signup_url)s\">sign up</a> first."
+msgstr ""
+
+#: .\wcoding_website\templates\account\login.html:43
+msgid "Forgot Password?"
+msgstr ""
+
+#: .\wcoding_website\templates\account\logout.html:5
+#: .\wcoding_website\templates\account\logout.html:8
+#: .\wcoding_website\templates\account\logout.html:17
+#: .\wcoding_website\templates\base.html:53
+msgid "Sign Out"
+msgstr ""
+
+#: .\wcoding_website\templates\account\logout.html:10
+msgid "Are you sure you want to sign out?"
+msgstr ""
+
+#: .\wcoding_website\templates\account\password_change.html:6
+#: .\wcoding_website\templates\account\password_change.html:9
+#: .\wcoding_website\templates\account\password_change.html:14
+#: .\wcoding_website\templates\account\password_reset_from_key.html:5
+#: .\wcoding_website\templates\account\password_reset_from_key.html:8
+#: .\wcoding_website\templates\account\password_reset_from_key_done.html:4
+#: .\wcoding_website\templates\account\password_reset_from_key_done.html:7
+msgid "Change Password"
+msgstr ""
+
+#: .\wcoding_website\templates\account\password_reset.html:7
+#: .\wcoding_website\templates\account\password_reset.html:11
+#: .\wcoding_website\templates\account\password_reset_done.html:6
+#: .\wcoding_website\templates\account\password_reset_done.html:9
+msgid "Password Reset"
+msgstr ""
+
+#: .\wcoding_website\templates\account\password_reset.html:16
+msgid ""
+"Forgotten your password? Enter your e-mail address below, and we'll send you"
+" an e-mail allowing you to reset it."
+msgstr ""
+
+#: .\wcoding_website\templates\account\password_reset.html:21
+msgid "Reset My Password"
+msgstr ""
+
+#: .\wcoding_website\templates\account\password_reset.html:24
+msgid "Please contact us if you have any trouble resetting your password."
+msgstr ""
+
+#: .\wcoding_website\templates\account\password_reset_done.html:15
+msgid ""
+"We have sent you an e-mail. Please contact us if you do not receive it "
+"within a few minutes."
+msgstr ""
+
+#: .\wcoding_website\templates\account\password_reset_from_key.html:8
+msgid "Bad Token"
+msgstr ""
+
+#: .\wcoding_website\templates\account\password_reset_from_key.html:12
+#, python-format
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a <a href=\"%(passwd_reset_url)s\">new password "
+"reset</a>."
+msgstr ""
+
+#: .\wcoding_website\templates\account\password_reset_from_key.html:18
+msgid "change password"
+msgstr ""
+
+#: .\wcoding_website\templates\account\password_reset_from_key.html:21
+#: .\wcoding_website\templates\account\password_reset_from_key_done.html:8
+msgid "Your password is now changed."
+msgstr ""
+
+#: .\wcoding_website\templates\account\password_set.html:6
+#: .\wcoding_website\templates\account\password_set.html:9
+#: .\wcoding_website\templates\account\password_set.html:14
+msgid "Set Password"
+msgstr ""
+
+#: .\wcoding_website\templates\account\signup.html:6
+msgid "Signup"
+msgstr ""
+
+#: .\wcoding_website\templates\account\signup.html:9
+#: .\wcoding_website\templates\account\signup.html:19
+#: .\wcoding_website\templates\base.html:58
+msgid "Sign Up"
+msgstr ""
+
+#: .\wcoding_website\templates\account\signup.html:11
+#, python-format
+msgid ""
+"Already have an account? Then please <a href=\"%(login_url)s\">sign in</a>."
+msgstr ""
+
+#: .\wcoding_website\templates\account\signup_closed.html:5
+#: .\wcoding_website\templates\account\signup_closed.html:8
+msgid "Sign Up Closed"
+msgstr ""
+
+#: .\wcoding_website\templates\account\signup_closed.html:10
+msgid "We are sorry, but the sign up is currently closed."
+msgstr ""
+
+#: .\wcoding_website\templates\account\verification_sent.html:5
+#: .\wcoding_website\templates\account\verification_sent.html:8
+#: .\wcoding_website\templates\account\verified_email_required.html:5
+#: .\wcoding_website\templates\account\verified_email_required.html:8
+msgid "Verify Your E-mail Address"
+msgstr ""
+
+#: .\wcoding_website\templates\account\verification_sent.html:10
+msgid ""
+"We have sent an e-mail to you for verification. Follow the link provided to "
+"finalize the signup process. Please contact us if you do not receive it "
+"within a few minutes."
+msgstr ""
+
+#: .\wcoding_website\templates\account\verified_email_required.html:12
+msgid ""
+"This part of the site requires us to verify that\n"
+"you are who you claim to be. For this purpose, we require that you\n"
+"verify ownership of your e-mail address. "
+msgstr ""
+
+#: .\wcoding_website\templates\account\verified_email_required.html:16
+msgid ""
+"We have sent an e-mail to you for\n"
+"verification. Please click on the link inside this e-mail. Please\n"
+"contact us if you do not receive it within a few minutes."
+msgstr ""
+
+#: .\wcoding_website\templates\account\verified_email_required.html:20
+#, python-format
+msgid ""
+"<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your "
+"e-mail address</a>."
+msgstr ""
+
+#: .\wcoding_website\templates\base.html:49
+msgid "My Profile"
+msgstr ""
+
+#: .\wcoding_website\templates\wcoding\about_section.html:24
+msgid ""
+"We believe Korea has some of the brightest, most talented people in the "
+"world. We are only held back by old conventional thinking that stifles "
+"creativity and innovation. Effective education does not come from leaving "
+"most students behind so that we can find best and pretend that we made them "
+"great. We think all students are great, and we want to help them find that "
+"potential. We want Korea to be a leader in the software industry. Will you "
+"join us?"
+msgstr ""
+"우리나라에는 참으로 똑똑하고 재능 있는 사람들이 많습니다. 우리 스스로 만든 관습적 사고만이 우리의 창의성과 혁신성을 억누르고 있는 "
+"장애물입니다. 효과적인 교육이란 절대 상위 1% 학생들을 위해 99%의 학생들을 포기하는 것이 아닙니다. 우리는 모든 학생들 안에 "
+"각자만의 재능이 있다는 것을 알기에 그들만의 잠재성을 찾아주고 싶습니다. 우리는 대한민국이 세계의 소프트웨어 산업을 이끌어가는 주도 "
+"국가가 되기를 바랍니다. 저희와 함께 하시겠습니까?"
+
+#: .\wcoding_website\templates\wcoding\base.html:47
+msgid "Language"
+msgstr ""
+
+#: .\wcoding_website\templates\wcoding\base.html:99
+msgid "W Coding Campus"
+msgstr "더블유코딩 캠퍼스"
+
+#: .\wcoding_website\templates\wcoding\base.html:115
+#: .\wcoding_website\templates\wcoding\contact_section.html:27
+msgid ""
+"Wonchang bld Unit 501, 10 Seolleung-ro 72-gil, Gangnam-gu, Seoul, South "
+"Korea"
+msgstr "서울시 강남구 선릉로 72길 10, 원창빌딩 501호 (대치동 921-18)"
+
+#: .\wcoding_website\templates\wcoding\contact_section.html:21
+msgid ""
+"Our doors are wide open to discuss and talk about all the programs that we "
+"provide. We also provide consulting about IT education, various study abroad"
+" plans and also working abroad as a software engineer. Please call us any "
+"time and we will help you set up a casual meeting with our experts."
+msgstr ""
+"wcoding에서 제공하는 모든 프로그램들에 대한 상담은 물론이고, 국내 IT 교육과 해외 유학 및 취업에 관한 상담도 언제든지 "
+"가능합니다! 저희 문은 언제든지 열려있습니다! 편하게 연락 주시면 친절하게 상담을 도와드리겠습니다!"
+
+#: .\wcoding_website\templates\wcoding\contact_section.html:50
+msgid "ONLINE CONSULTATION"
+msgstr "온라인 상담 신청"
+
+#: .\wcoding_website\templates\wcoding\news_events_section.html:24
+msgid "UPCOMING"
+msgstr "다가오는"
+
+#: .\wcoding_website\templates\wcoding\news_events_section.html:25
+#: .\wcoding_website\templates\wcoding\news_events_section.html:202
+msgid "EVENTS"
+msgstr "이벤트"
+
+#: .\wcoding_website\templates\wcoding\news_events_section.html:201
+msgid "PAST"
+msgstr "지난"
+
+#: .\wcoding_website\templates\wcoding\news_events_section.html:209
+msgid ""
+"wcoding plans monthly free seminars and events concerning programming and IT"
+" education! If you want to receive information about these events, please "
+"subscribe to our mailing list!"
+msgstr ""
+"wcoding에서는 매달 새로운 무료 세미나와 이벤트들을 계획하고 있습니다. 미래 이벤트들에 대한 소식을 받고 싶으시면, 이메일을 "
+"입력해주세요!"
+
+#: .\wcoding_website\templates\wcoding\programs_section.html:23
+msgid "Full-time"
+msgstr "정규"
+
+#: .\wcoding_website\templates\wcoding\programs_section.html:24
+#: .\wcoding_website\templates\wcoding\programs_section.html:34
+msgid "Course"
+msgstr "과정"
+
+#: .\wcoding_website\templates\wcoding\programs_section.html:33
+msgid "Part-time"
+msgstr "단과"
+
+#: .\wcoding_website\templates\wcoding\programs_section.html:43
+msgid "Summer & Winter"
+msgstr "방학"
+
+#: .\wcoding_website\templates\wcoding\programs_section.html:44
+msgid "Camp"
+msgstr "캠프"
+
+#: .\wcoding_website\templates\wcoding\programs_section.html:51
+msgid "explanation progrmas section"
+msgstr ""
+"wcoding에서는 학생들이 4차 산업혁명 시대가 요구하는 창의력 있은 균형 잡힌 인재로 성장하도록 도와줍니다. 영어와 프로그래밍을 "
+"동시에 배움으로써 한국이라는 지형적 한계를 뛰어 넘어 본인의 가능성을 국제사회에서도 시험해볼 수 있는 발판을 제공합니다."
+
+#: .\wcoding_website\templates\wcoding\programs_section.html:98
+msgid ""
+"Learn to Code and English at the same time & Pick the course that intrigues "
+"you!"
+msgstr "영어와 코딩을 동시에 수강하는 정규과정 & 취향대로 골라 수강할 수 있는 단과 과정"
+
+#: .\wcoding_website\users\models.py:13
+msgid "Name of User"
+msgstr ""
+
+#~ msgid "^post/"
+#~ msgstr "포스트"
+
+#~ msgid "slug"
+#~ msgstr "포스트"
+
+#~ msgid "publish"
+#~ msgstr "발행"

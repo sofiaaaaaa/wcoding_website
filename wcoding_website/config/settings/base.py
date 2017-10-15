@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 """
 Django settings for wcoding website project.
 
@@ -8,6 +11,8 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/dev/ref/settings/
 """
 import environ
+
+from django.utils.translation import ugettext_lazy as _
 
 ROOT_DIR = environ.Path(__file__) - 3  # (wcoding_website/config/settings/base.py - 3 = wcoding_website/)
 APPS_DIR = ROOT_DIR.path('wcoding_website')
@@ -41,6 +46,9 @@ DJANGO_APPS = [
     # Useful template tags:
     # 'django.contrib.humanize',
 
+    # django-modeltranslation
+    'modeltranslation',
+
     # Admin
     'django.contrib.admin',
 ]
@@ -66,6 +74,7 @@ INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -143,6 +152,26 @@ TIME_ZONE = 'Asia/Seoul'
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#language-code
 LANGUAGE_CODE = 'en-us'
+# LANGUAGE_CODE = 'ko-KR'
+
+# Django to be able to(statically) translate the verbose names of the languages using the standard 'i18n' solution.
+gettext = lambda s: s
+
+LANGUAGES = [
+    ('en', _('English')),
+    ('ko', _('Korean')),
+]
+
+MODELTRANSLATION_DEFAULT_LANGUAGE = 'en'
+MODELTRANSLATION_TRANSLATION_FILES = {
+    'posting_system.translation',
+}
+MODELTRANSLATION_DEBUG = True
+
+
+LOCALE_PATHS = (
+    str(ROOT_DIR.path('locale')),
+)
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#site-id
 SITE_ID = 1
