@@ -5,7 +5,7 @@ from .models import Post
 
 class PostTranslationOptions(TranslationOptions):
     # List of translatable model field.
-    fields = ('title', 'slug', 'body',)
+    fields = ('title', 'body',)
 
     # control which translation fields are required.
     required_languages = ('en', 'ko')

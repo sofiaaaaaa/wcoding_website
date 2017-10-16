@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-14 23:07+0900\n"
+"POT-Creation-Date: 2017-10-15 22:54+0900\n"
 "PO-Revision-Date: 2017-10-14 23:30+0828\n"
 "Last-Translator: b'  <>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,38 +35,53 @@ msgstr "초안"
 msgid "Published"
 msgstr "발행"
 
-#: .\posting_system\models.py:33
+#: .\posting_system\models.py:44
+msgid "Category"
+msgstr "카테고리"
+
+#: .\posting_system\models.py:51
 msgid "Title"
 msgstr "제목"
 
-#: .\posting_system\models.py:38
+#: .\posting_system\models.py:56
 msgid "Slug"
 msgstr "슬러그"
 
-#: .\posting_system\models.py:51
+#: .\posting_system\models.py:64
 msgid "Author"
 msgstr "작성자"
 
-#: .\posting_system\models.py:58
+#: .\posting_system\models.py:71
+msgid "Thumbnail Image"
+msgstr "썸네일 이미지"
+
+#: .\posting_system\models.py:76
 msgid "Body"
 msgstr "본문"
 
-#: .\posting_system\models.py:61
-#| msgid "Published"
+#: .\posting_system\models.py:78
 msgid "Publish"
 msgstr "발행일"
 
-#: .\posting_system\models.py:70
+#: .\posting_system\models.py:85
 msgid "Status"
 msgstr "상태"
 
-#: .\posting_system\models.py:87
+#: .\posting_system\models.py:106
 msgid "Post"
 msgstr "포스트"
 
-#: .\posting_system\models.py:88
+#: .\posting_system\models.py:107
 msgid "Posts"
 msgstr "포스트"
+
+#: .\posting_system\models.py:127
+msgid "Tag"
+msgstr "태그"
+
+#: .\posting_system\models.py:128
+msgid "Tags"
+msgstr "태그"
 
 #: .\wcoding_website\templates\account\account_inactive.html:5
 #: .\wcoding_website\templates\account\account_inactive.html:8
@@ -120,8 +135,7 @@ msgstr ""
 #: .\wcoding_website\templates\account\email.html:46
 msgid ""
 "You currently do not have any e-mail address set up. You should really add "
-"an e-mail address so you can receive notifications, reset your password, "
-"etc."
+"an e-mail address so you can receive notifications, reset your password, etc."
 msgstr ""
 
 #: .\wcoding_website\templates\account\email.html:51
@@ -155,8 +169,8 @@ msgstr ""
 #: .\wcoding_website\templates\account\email_confirm.html:27
 #, python-format
 msgid ""
-"This e-mail confirmation link expired or is invalid. Please <a "
-"href=\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+"This e-mail confirmation link expired or is invalid. Please <a href="
+"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
 msgstr ""
 
 #: .\wcoding_website\templates\account\login.html:7
@@ -170,7 +184,8 @@ msgstr ""
 #, python-format
 msgid ""
 "Please sign in with one\n"
-"of your existing third party accounts. Or, <a href=\"%(signup_url)s\">sign up</a>\n"
+"of your existing third party accounts. Or, <a href=\"%(signup_url)s\">sign "
+"up</a>\n"
 "for a %(site_name)s account and sign in below:"
 msgstr ""
 
@@ -219,8 +234,8 @@ msgstr ""
 
 #: .\wcoding_website\templates\account\password_reset.html:16
 msgid ""
-"Forgotten your password? Enter your e-mail address below, and we'll send you"
-" an e-mail allowing you to reset it."
+"Forgotten your password? Enter your e-mail address below, and we'll send you "
+"an e-mail allowing you to reset it."
 msgstr ""
 
 #: .\wcoding_website\templates\account\password_reset.html:21
@@ -245,8 +260,8 @@ msgstr ""
 #, python-format
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
-"used.  Please request a <a href=\"%(passwd_reset_url)s\">new password "
-"reset</a>."
+"used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</"
+"a>."
 msgstr ""
 
 #: .\wcoding_website\templates\account\password_reset_from_key.html:18
@@ -320,8 +335,8 @@ msgstr ""
 #: .\wcoding_website\templates\account\verified_email_required.html:20
 #, python-format
 msgid ""
-"<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your "
-"e-mail address</a>."
+"<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your e-"
+"mail address</a>."
 msgstr ""
 
 #: .\wcoding_website\templates\base.html:49
@@ -338,14 +353,16 @@ msgid ""
 "potential. We want Korea to be a leader in the software industry. Will you "
 "join us?"
 msgstr ""
-"우리나라에는 참으로 똑똑하고 재능 있는 사람들이 많습니다. 우리 스스로 만든 관습적 사고만이 우리의 창의성과 혁신성을 억누르고 있는 "
-"장애물입니다. 효과적인 교육이란 절대 상위 1% 학생들을 위해 99%의 학생들을 포기하는 것이 아닙니다. 우리는 모든 학생들 안에 "
-"각자만의 재능이 있다는 것을 알기에 그들만의 잠재성을 찾아주고 싶습니다. 우리는 대한민국이 세계의 소프트웨어 산업을 이끌어가는 주도 "
+"우리나라에는 참으로 똑똑하고 재능 있는 사람들이 많습니다. 우리 스스로 만든 관"
+"습적 사고만이 우리의 창의성과 혁신성을 억누르고 있는 장애물입니다. 효과적인 "
+"교육이란 절대 상위 1% 학생들을 위해 99%의 학생들을 포기하는 것이 아닙니다. 우"
+"리는 모든 학생들 안에 각자만의 재능이 있다는 것을 알기에 그들만의 잠재성을 찾"
+"아주고 싶습니다. 우리는 대한민국이 세계의 소프트웨어 산업을 이끌어가는 주도 "
 "국가가 되기를 바랍니다. 저희와 함께 하시겠습니까?"
 
 #: .\wcoding_website\templates\wcoding\base.html:47
 msgid "Language"
-msgstr ""
+msgstr "언어"
 
 #: .\wcoding_website\templates\wcoding\base.html:99
 msgid "W Coding Campus"
@@ -354,19 +371,19 @@ msgstr "더블유코딩 캠퍼스"
 #: .\wcoding_website\templates\wcoding\base.html:115
 #: .\wcoding_website\templates\wcoding\contact_section.html:27
 msgid ""
-"Wonchang bld Unit 501, 10 Seolleung-ro 72-gil, Gangnam-gu, Seoul, South "
-"Korea"
+"Wonchang bld Unit 501, 10 Seolleung-ro 72-gil, Gangnam-gu, Seoul, South Korea"
 msgstr "서울시 강남구 선릉로 72길 10, 원창빌딩 501호 (대치동 921-18)"
 
 #: .\wcoding_website\templates\wcoding\contact_section.html:21
 msgid ""
 "Our doors are wide open to discuss and talk about all the programs that we "
-"provide. We also provide consulting about IT education, various study abroad"
-" plans and also working abroad as a software engineer. Please call us any "
+"provide. We also provide consulting about IT education, various study abroad "
+"plans and also working abroad as a software engineer. Please call us any "
 "time and we will help you set up a casual meeting with our experts."
 msgstr ""
-"wcoding에서 제공하는 모든 프로그램들에 대한 상담은 물론이고, 국내 IT 교육과 해외 유학 및 취업에 관한 상담도 언제든지 "
-"가능합니다! 저희 문은 언제든지 열려있습니다! 편하게 연락 주시면 친절하게 상담을 도와드리겠습니다!"
+"wcoding에서 제공하는 모든 프로그램들에 대한 상담은 물론이고, 국내 IT 교육과 "
+"해외 유학 및 취업에 관한 상담도 언제든지 가능합니다! 저희 문은 언제든지 열려"
+"있습니다! 편하게 연락 주시면 친절하게 상담을 도와드리겠습니다!"
 
 #: .\wcoding_website\templates\wcoding\contact_section.html:50
 msgid "ONLINE CONSULTATION"
@@ -387,49 +404,47 @@ msgstr "지난"
 
 #: .\wcoding_website\templates\wcoding\news_events_section.html:209
 msgid ""
-"wcoding plans monthly free seminars and events concerning programming and IT"
-" education! If you want to receive information about these events, please "
+"wcoding plans monthly free seminars and events concerning programming and IT "
+"education! If you want to receive information about these events, please "
 "subscribe to our mailing list!"
 msgstr ""
-"wcoding에서는 매달 새로운 무료 세미나와 이벤트들을 계획하고 있습니다. 미래 이벤트들에 대한 소식을 받고 싶으시면, 이메일을 "
-"입력해주세요!"
+"wcoding에서는 매달 새로운 무료 세미나와 이벤트들을 계획하고 있습니다. 미래 이"
+"벤트들에 대한 소식을 받고 싶으시면, 이메일을 입력해주세요!"
 
-#: .\wcoding_website\templates\wcoding\programs_section.html:23
-msgid "Full-time"
-msgstr "정규"
-
-#: .\wcoding_website\templates\wcoding\programs_section.html:24
-#: .\wcoding_website\templates\wcoding\programs_section.html:34
-msgid "Course"
-msgstr "과정"
-
-#: .\wcoding_website\templates\wcoding\programs_section.html:33
-msgid "Part-time"
-msgstr "단과"
-
-#: .\wcoding_website\templates\wcoding\programs_section.html:43
-msgid "Summer & Winter"
-msgstr "방학"
-
-#: .\wcoding_website\templates\wcoding\programs_section.html:44
-msgid "Camp"
-msgstr "캠프"
-
-#: .\wcoding_website\templates\wcoding\programs_section.html:51
+#: .\wcoding_website\templates\wcoding\programs_section.html:40
 msgid "explanation progrmas section"
 msgstr ""
-"wcoding에서는 학생들이 4차 산업혁명 시대가 요구하는 창의력 있은 균형 잡힌 인재로 성장하도록 도와줍니다. 영어와 프로그래밍을 "
-"동시에 배움으로써 한국이라는 지형적 한계를 뛰어 넘어 본인의 가능성을 국제사회에서도 시험해볼 수 있는 발판을 제공합니다."
+"wcoding에서는 학생들이 4차 산업혁명 시대가 요구하는 창의력 있은 균형 잡힌 인"
+"재로 성장하도록 도와줍니다. 영어와 프로그래밍을 동시에 배움으로써 한국이라는 "
+"지형적 한계를 뛰어 넘어 본인의 가능성을 국제사회에서도 시험해볼 수 있는 발판"
+"을 제공합니다."
 
-#: .\wcoding_website\templates\wcoding\programs_section.html:98
+#: .\wcoding_website\templates\wcoding\programs_section.html:54
 msgid ""
 "Learn to Code and English at the same time & Pick the course that intrigues "
 "you!"
-msgstr "영어와 코딩을 동시에 수강하는 정규과정 & 취향대로 골라 수강할 수 있는 단과 과정"
+msgstr ""
+"영어와 코딩을 동시에 수강하는 정규과정 & 취향대로 골라 수강할 수 있는 단과 과"
+"정"
 
 #: .\wcoding_website\users\models.py:13
 msgid "Name of User"
 msgstr ""
+
+#~ msgid "Full-time"
+#~ msgstr "정규"
+
+#~ msgid "Course"
+#~ msgstr "과정"
+
+#~ msgid "Part-time"
+#~ msgstr "단과"
+
+#~ msgid "Summer & Winter"
+#~ msgstr "방학"
+
+#~ msgid "Camp"
+#~ msgstr "캠프"
 
 #~ msgid "^post/"
 #~ msgstr "포스트"

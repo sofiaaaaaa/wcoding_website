@@ -1,4 +1,4 @@
-{% load staticfiles %}
+{% load staticfiles i18n %}
 
 <!-- programs section -->
 <div id="programs" class="container">
@@ -17,21 +17,21 @@
 <div class="container">
     <div class="row">
         <div class="col-md-4">
-           {% for class in regular_class|slice:":1" %}
-                <img src="{{ class.image.url }}" height="230px" width="300px">
+           {% for class in fulltime_course|slice:":1" %}
+               <a href="{{ class.get_absolute_url }}"><img src="{{ class.thumbnail_image.url }}" height="230px" width="300px"></a>
            {% endfor %}
         </div>
 
         <div class="col-md-4">
-            {% for class in classes|slice:":1" %}
-                <img src="{{ class.image.url }}" height="230px" width="300px">
+            {% for class in parttime_course|slice:":1" %}
+                <a href=""><img src="{{ class.thumbnail_image.url }}" height="230px" width="300px"></a>
             {% endfor %}
 
         </div>
 
         <div class="col-md-4">
             {% for camp in camps|slice:":1" %}
-                <img src="{{ camp.image.url }}" height="230px" width="300px">
+                <a href="{{ camp.get_absolute_url }}"><img src="{{ camp.thumbnail_image.url }}" height="230px" width="300px"></a>
             {% endfor %}
         </div>
     </div>
@@ -45,7 +45,7 @@
     <div class="row">
         {% for best_pick in best_picks|slice:":4" %}
             <div class="col-md-3">
-                <img src="{{ best_pick.image.url }}" height="230px" width="300px">
+                <a href="{{ best_pick.get_absolute_url }}"><img src="{{ best_pick.thumbnail_image.url }}" height="230px" width="300px"></a>
             </div>
         {% endfor %}
     </div>

@@ -74,7 +74,6 @@ DEBUG_TOOLBAR_CONFIG = {
 INSTALLED_APPS += ['django_extensions', ]
 
 # custom APPS
-INSTALLED_APPS += ['ckeditor', 'ckeditor_uploader', 'posting_system', 'taggit', ]
 
 # TESTING
 # ------------------------------------------------------------------------------
@@ -91,6 +90,8 @@ INSTALLED_APPS +=['ckeditor', 'ckeditor_uploader', ]
 CKEDITOR_UPLOAD_PATH = "uploads/"
 CKEDITOR_IMAGE_BACKEND = "pillow"
 
-
 # posting_system
 INSTALLED_APPS +=['posting_system', ]
+
+# taggit
+INSTALLED_APPS +=['taggit', ]

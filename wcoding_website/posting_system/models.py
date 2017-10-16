@@ -32,8 +32,8 @@ class Post(models.Model):
     CATEGORY_CHOICES = (
         ('main_window', 'Main_window'),
         ('meet_the_team', 'Meet_the_team'),
-        ('regular_class', 'Regular_class'),
-        ('classes', 'Classes'),
+        ('fulltime_course', 'Fulltime_course'),
+        ('parttime_course', 'Parttime_course'),
         ('camp', 'Camp'),
         ('best_picks', 'Best_picks'),
         ('news_events', 'News_events'),
@@ -41,21 +41,11 @@ class Post(models.Model):
 
     # category
     category = models.CharField(
+        _('Category'),
         max_length=20,
         choices=CATEGORY_CHOICES,
         default='classes'
     )
-
-    title = models.CharField(max_length=250)
-
-    slug = models.SlugField(
-        max_length=250,
-        unique_for_date='publish'
-    )
-    author = models.ForeignKey(
-        get_user_model(),
-        related_name='posts'
-    )  # django 1.11
 
     title = models.CharField(
         _('Title'),
@@ -74,13 +64,19 @@ class Post(models.Model):
         verbose_name=_('Author')
     )  # django 1.11
     # author = models.ForeignKey(settings.AUTH_USER_MODEL, related_name='blog_posts') # before django 1.11
-# CKEditor    # body = models.TextField(): Basic Django model type
-    # body = RichTextField(): Without Image upload
-image = models.ImageField(
+
+    thumbnail_image = models.ImageField(
         upload_to='thumbnail/%Y/%m/%d',
-        blank=True
-    )    body = RichTextUploadingField(_('Body'))
-    publish = models.DateTimeField(_('Publish'),default=timezone.now)
+        blank=True,
+        verbose_name=_('Thumbnail Image')
+    )
+
+    # CKEditor    # body = models.TextField(): Basic Django model type
+    # body = RichTextField(): Without Image upload
+    body = RichTextUploadingField(_('Body'))
+
+    publish = models.DateTimeField(_('Publish'), default=timezone.now)
+
     created = models.DateTimeField(auto_now_add=True)
 
     updated = models.DateTimeField(auto_now=True)
@@ -92,25 +88,18 @@ image = models.ImageField(
         default='draft'
     )
 
-    objects = models.Manager()  # The default manager
-    published = PublishedManager()  # Our custom manager.
-    status = models.CharField(
-        max_length=10,
-        choices=STATUS_CHOICES,
-        default='draft'
-    )
-
+    # Manager
     objects = models.Manager()  # The default manager : This is optional, and if you don't specific, the default name is 'objects'!!!
-
     published = PublishedManager()  # Our custom manager.
 
     # from taggit
-    tags = TaggableManager()
+    tags = TaggableManager(blank=True)
 
+    # Canonical URLs for models
     def get_absolute_url(self):
         return reverse('posting_system:post_detail',
                        args=[self.publish.year,
-                             self.publish.strftime('%m'),
+                             self.publish.strftime('%m'),  # strftime(): how to format about related to time
                              self.publish.strftime('%d'),
                              self.slug])
 
@@ -126,9 +115,6 @@ image = models.ImageField(
         return self.title
 
 
-
-
-
 class Comment(models.Model):
     post = models.ForeignKey(Post, related_name='comments')
     name = models.CharField(max_length=80)
@@ -139,6 +125,9 @@ class Comment(models.Model):
     active = models.BooleanField(default=True)
 
     class Meta:
+        verbose_name = _('Tag')
+        verbose_name_plural = _('Tags')
+
         ordering = ('created',)
 
     def __str__(self):

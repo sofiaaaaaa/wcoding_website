@@ -50,16 +50,16 @@
     {% endfor %}
 
     {# social Link #}
-    <a href="http://www.naver.com" target="_blank"><img class="sociallink1 naver_logo" src="{% static 'images/social_logo/NV_Gray.svg' %}" alt="Naver Logo"
+    <a href="http://wcoding.blog.me/" target="_blank"><img class="sociallink1 naver_logo" src="{% static 'images/social_logo/NV_Gray.svg' %}" alt="Naver Logo"
     onmouseover="naverOnHover();" onmouseout="naverOffHover();"></a>
 
-    <a href="http://www.youtube.com" target="_blank"><img class="sociallink1 youtube_logo" src="{% static 'images/social_logo/YT_Gray.svg' %}" alt="Youtube Logo"
+    <a href="https://www.youtube.com/channel/UCX9O03vi_b6hUzrj0RZ3HxA" target="_blank"><img class="sociallink1 youtube_logo" src="{% static 'images/social_logo/YT_Gray.svg' %}" alt="Youtube Logo"
     onmouseover="youtubeOnHover();" onmouseout="youtubeOffHover();"></a>
 
-    <a href="http://www.facebook.com" target="_blank"><img class="sociallink1 facebook_logo" src="{% static 'images/social_logo/FB_Gray.svg' %}" alt="Facebook Logo"
+    <a href="https://www.facebook.com/wcoding/" target="_blank"><img class="sociallink1 facebook_logo" src="{% static 'images/social_logo/FB_Gray.svg' %}" alt="Facebook Logo"
     onmouseover="facebookOnHover();" onmouseout="facebookOffHover();"></a>
 
-    <a href="http://www.instagram.com" target="_blank"><img class="sociallink1 instagram_logo" src="{% static 'images/social_logo/IG_Gray.svg' %}" alt="Instagram Logo"
+    <a href="https://www.instagram.com/wcoding/" target="_blank"><img class="sociallink1 instagram_logo" src="{% static 'images/social_logo/IG_Gray.svg' %}" alt="Instagram Logo"
     onmouseover="instagramOnHover();" onmouseout="instagramOffHover();"></a>
 </div>
 
@@ -72,17 +72,17 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="{% url 'index' %}">
                 <img src="{% static 'images/wcoding_logo/wcc_logo.svg' %}" alt="wcoding Logo">
             </a>
         </div>
 
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#about" id="about_hover">ABOUT</a></li>
-                <li><a href="#programs" id="programs_hover">PROGRAMS</a></li>
-                <li><a href="#news" id="news_hover">EVENTS</a></li>
-                <li><a href="#contact" id="contact_hover">CONTACT</a></li>
+                <li><a href="{% url 'index' %}/#about" id="about_hover">ABOUT</a></li>
+                <li><a href="{% url 'index' %}/#programs" id="programs_hover">PROGRAMS</a></li>
+                <li><a href="{% url 'index' %}/#news" id="news_hover">EVENTS</a></li>
+                <li><a href="{% url 'index'%}/#contact" id="contact_hover">CONTACT</a></li>
             </ul>
         </div>
     </div>
@@ -102,10 +102,10 @@
         <div class="col-md-2">
             <h4>EXPLORE US</h4>
             <div class="footer_line"></div>
-            <h5><a href="#about">ABOUT</a></h5>
-            <h5><a href="#programs">PROGRAMS</a></h5>
-            <h5><a href="#news">NEWS & EVENTS</a></h5>
-            <h5><a href="#contact">CONTACT</a></h5>
+            <h5><a href="{% url 'index' %}/#about">ABOUT</a></h5>
+            <h5><a href="{% url 'index' %}/#programs">PROGRAMS</a></h5>
+            <h5><a href="{% url 'index' %}/#news">NEWS & EVENTS</a></h5>
+            <h5><a href="{% url 'index' %}/#contact">CONTACT</a></h5>
         </div>
 
         <div class="col-md-4">
@@ -119,10 +119,10 @@
         <div class="col-md-3">
             <h4>WE ARE SOCIAL</h4>
             <div class="footer_line"></div>
-            <h5><a href="http://www.facebook.com">FACEBOOK</a></h5>
-            <h5><a href="http://www.naver.com">NAVER BLOG</a></h5>
-            <h5><a href="http://www.youtube.com">YOUTUBE</a></h5>
-            <h5><a href="http://www.instagram.com">INSTAGRAM</a></h5>
+            <h5><a href="https://www.facebook.com/wcoding/">FACEBOOK</a></h5>
+            <h5><a href="http://wcoding.blog.me/">NAVER BLOG</a></h5>
+            <h5><a href="https://www.youtube.com/channel/UCX9O03vi_b6hUzrj0RZ3HxA">YOUTUBE</a></h5>
+            <h5><a href="https://www.instagram.com/wcoding/">INSTAGRAM</a></h5>
         </div>
     </div>
 </footer>
