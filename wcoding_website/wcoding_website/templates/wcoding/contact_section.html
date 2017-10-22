@@ -17,14 +17,14 @@
 <div class="container">
     <div class="row">
         <div class="col-md-5">
-            <h3 class="nanum" style="margin-top: 0px;">ABOUT CONTACT //</h3>
             <h4 class="nanum">{% trans "Our doors are wide open to discuss and talk about all the programs that we provide. We also provide consulting about IT education, various study abroad plans and also working abroad as a software engineer. Please call us any time and we will help you set up a casual meeting with our experts." %}</h4>
             <br>
             <h4><span style="color: #541DD8;">CALL US: </span>&nbsp; 02 2923 8273</h4>
             <br>
             <h4><span style="color: #541DD8;">E-MAIL US: </span>&nbsp; INFO@WCODING.CO.KR</h4>
             <br>
-            <h4><span style="color: #541DD8;">VISIT US: </span>&nbsp; {% trans "Wonchang bld Unit 501, 10 Seolleung-ro 72-gil, Gangnam-gu, Seoul, South Korea" %}</h4>
+            <h4><span style="color: #541DD8;">VISIT US: </span></h4>
+                <h4>&nbsp;&nbsp;&nbsp;&nbsp;{% blocktrans  %}Wonchang bld Unit 501, 10 Seolleung-ro 72-gil, <br>&nbsp;&nbsp;&nbsp;&nbsp;Gangnam-gu, Seoul, South Korea{% endblocktrans %}</h4>
             <br>
             <h4 style="color: #541DD8; display: inline">WE ARE SOCIAL!</h4>
 
@@ -44,15 +44,16 @@
             <a href="http://www.instagram.com" target="_blank"><img class="sociallink2 instagram_logo" src="{% static 'images/social_logo/IG_Gray.svg' %}" alt="instagram logo"
                                                                     onmouseover="instagramOnHover();" onmouseout="instagramOffHover();"></a>
 
-            <br>
+            <br><br>
 
             <h4 style="color: #541DD8; display: inline">CONSULT WITH US!</h4>
-            <h4 style="display: inline"><a id="online_consultation" href="#" data-hover="{ ONLINE CONSULTATION }">&nbsp; {% trans "ONLINE CONSULTATION" %}</a></H4>
+            <h4 style="display: inline"><a id="online_consultation" href="#" data-hover="{ ONLINE CONSULTATION }">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {% trans "ONLINE CONSULTATION" %}</a></H4>
         </div>
 
         <div class="col-md-7">
             <div class="map-responsive">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6030.418742494061!2d-111.34563870463673!3d26.01036670629853!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1471908546569" frameborder="0" style="border:0" allowfullscreen></iframe>
+{#                <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6030.418742494061!2d-111.34563870463673!3d26.01036670629853!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1471908546569" frameborder="0" style="border:0" allowfullscreen></iframe>#}
+                <iframe id="map"></iframe>
             </div>
         </div>
     </div>

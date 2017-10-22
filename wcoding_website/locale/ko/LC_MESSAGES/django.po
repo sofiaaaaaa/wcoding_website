@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-15 22:54+0900\n"
+"POT-Creation-Date: 2017-10-18 13:19+0900\n"
 "PO-Revision-Date: 2017-10-14 23:30+0828\n"
 "Last-Translator: b'  <>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,19 +67,19 @@ msgstr "발행일"
 msgid "Status"
 msgstr "상태"
 
-#: .\posting_system\models.py:106
+#: .\posting_system\models.py:107
 msgid "Post"
 msgstr "포스트"
 
-#: .\posting_system\models.py:107
+#: .\posting_system\models.py:108
 msgid "Posts"
 msgstr "포스트"
 
-#: .\posting_system\models.py:127
+#: .\posting_system\models.py:128
 msgid "Tag"
 msgstr "태그"
 
-#: .\posting_system\models.py:128
+#: .\posting_system\models.py:129
 msgid "Tags"
 msgstr "태그"
 
@@ -369,12 +369,13 @@ msgid "W Coding Campus"
 msgstr "더블유코딩 캠퍼스"
 
 #: .\wcoding_website\templates\wcoding\base.html:115
-#: .\wcoding_website\templates\wcoding\contact_section.html:27
 msgid ""
 "Wonchang bld Unit 501, 10 Seolleung-ro 72-gil, Gangnam-gu, Seoul, South Korea"
-msgstr "서울시 강남구 선릉로 72길 10, 원창빌딩 501호 (대치동 921-18)"
+msgstr ""
+"서울시 강남구 선릉로 72길 10, <br>&nbsp;&nbsp;&nbsp;&nbsp;원창빌딩 501호 (대"
+"치동 921-18)"
 
-#: .\wcoding_website\templates\wcoding\contact_section.html:21
+#: .\wcoding_website\templates\wcoding\contact_section.html:20
 msgid ""
 "Our doors are wide open to discuss and talk about all the programs that we "
 "provide. We also provide consulting about IT education, various study abroad "
@@ -384,6 +385,14 @@ msgstr ""
 "wcoding에서 제공하는 모든 프로그램들에 대한 상담은 물론이고, 국내 IT 교육과 "
 "해외 유학 및 취업에 관한 상담도 언제든지 가능합니다! 저희 문은 언제든지 열려"
 "있습니다! 편하게 연락 주시면 친절하게 상담을 도와드리겠습니다!"
+
+#: .\wcoding_website\templates\wcoding\contact_section.html:27
+msgid ""
+"\"Wonchang bld Unit 501, 10 Seolleung-ro 72-gil, <br>&nbsp;&nbsp;&nbsp;&nbsp;"
+"Gangnam-gu, Seoul, South Korea\""
+msgstr ""
+"서울시 강남구 선릉로 72길 10, <br>&nbsp;&nbsp;&nbsp;&nbsp;원창빌딩 501호 (대"
+"치동 921-18)"
 
 #: .\wcoding_website\templates\wcoding\contact_section.html:50
 msgid "ONLINE CONSULTATION"
@@ -430,27 +439,3 @@ msgstr ""
 #: .\wcoding_website\users\models.py:13
 msgid "Name of User"
 msgstr ""
-
-#~ msgid "Full-time"
-#~ msgstr "정규"
-
-#~ msgid "Course"
-#~ msgstr "과정"
-
-#~ msgid "Part-time"
-#~ msgstr "단과"
-
-#~ msgid "Summer & Winter"
-#~ msgstr "방학"
-
-#~ msgid "Camp"
-#~ msgstr "캠프"
-
-#~ msgid "^post/"
-#~ msgstr "포스트"
-
-#~ msgid "slug"
-#~ msgstr "포스트"
-
-#~ msgid "publish"
-#~ msgstr "발행"

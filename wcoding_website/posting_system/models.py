@@ -30,13 +30,13 @@ class Post(models.Model):
     )
 
     CATEGORY_CHOICES = (
-        ('main_window', 'Main_window'),
-        ('meet_the_team', 'Meet_the_team'),
-        ('fulltime_course', 'Fulltime_course'),
-        ('parttime_course', 'Parttime_course'),
+        ('main_window', 'Main window'),
+        ('meet_the_team', 'Meet the team'),
+        ('fulltime_course', 'Fulltime course'),
+        ('parttime_course', 'Parttime course'),
         ('camp', 'Camp'),
-        ('best_picks', 'Best_picks'),
-        ('news_events', 'News_events'),
+        ('best_picks', 'Best picks'),
+        ('news_events', 'News events'),
     )
 
     # category

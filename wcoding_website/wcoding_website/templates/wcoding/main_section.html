@@ -1,18 +1,30 @@
 {% load staticfiles %}
 <!-- TODO: fixing carousel and response-->
 <!-- main section -->
-<div id="main_window" class="container-fluid">
-    <img class="img-responsive"  src="{% static 'images/MainPoster.svg' %}" alt="main image">
-    <div id="main_box" class="carousel slide">
+
+<div class="container">
+    <div id="carousel" class="carousel slide" data-ride="carousel">
          <!--Indicators -->
         <ol class="carousel-indicators carousel-indicators-numbers">
-            <li data-target="#main_box_carousel" data-slide-to="0" class="active">01</li>
-            <li data-target="#main_box_carousel" data-slide-to="1">02</li>
-            <li data-target="#main_box_carousel" data-slide-to="2">03</li>
+            <li data-target="#carousel" data-slide-to="0" class="active">01</li>
+            <li data-target="#carousel" data-slide-to="1">02</li>
+            <li data-target="#carousel" data-slide-to="2">03</li>
         </ol>
 
          <!--Wrapper for slides-->
-        <div class="carousel-inner" role="listbox" style="height: inherit;">
+        <div class="carousel-inner" role="listbox">
+            {% for main_window in main_windows|slice:":3" %}
+            <div class="carousel-inner">
+                <div {% if main_window.1 %}class="item active" {% else %}class="item"{% endif %}>
+                    <a href="{{ main_window.get_absolute_url }}"><img src="{{ main_window.thumbnail_image.url }}" alt=""></a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<!--
             <div class="item active main_carousel">
                 <h1>CODE YOUR WAY1 <br>
                     TO SUCCESS</h1>
@@ -45,6 +57,7 @@
                 <br><br>
                 <h3 class="text-right"><a class="learnMore2" href="#" style="color: #ffffff" data-hover="{ LEARN MORE }">LEARN MORE</a></h3>
             </div>
+
         </div>
     </div>
 </div>

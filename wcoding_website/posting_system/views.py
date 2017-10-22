@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from django.views.generic import ListView
 from django.shortcuts import render, get_object_or_404
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
@@ -30,10 +32,13 @@ def post_list(request):
 
     best_picks = posts.filter(category='best_picks')
 
+    main_windows = posts.filter(category='main_window')
+
     return render(request, 'wcoding/index.html', {'fulltime_course': fulltime_course,
                                                   'parttime_course': parttime_course,
                                                   'camps': camps,
-                                                  'best_picks': best_picks})
+                                                  'best_picks': best_picks,
+                                                  'main_windows': main_windows})
 
 
 def post_detail(request, year, month, day, post):
