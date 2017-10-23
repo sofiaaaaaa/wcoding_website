@@ -171,55 +171,6 @@
 
 /* main window*/
 
-/*#main_window {*/
-    /*position: relative;*/
-    /*margin: 5em 0;*/
-/*}*/
-
-/*#main_box {*/
-    /*position: absolute;*/
-    /*height: 50rem;*/
-    /*width: 70rem;*/
-    /*background: #0055F2;*/
-    /*background: -webkit-linear-gradient(left, #00B6F2, #0055F2);*/
-    /*background: -o-linear-gradient(right, #00B6F2, #0055F2);*/
-    /*background: -moz-linear-gradient(right, #00B6F2, #0055F2);*/
-    /*background: linear-gradient(to right, #00B6F2, #0055F2);*/
-    /*color: #ffffff;*/
-    /*top: 50%;*/
-    /*left: 30em;*/
-    /*transform: translate(-50%, -50%);*/
-/*}*/
-
-/*.carousel-indicators-numbers li {*/
-    /*text-indent: 0;*/
-    /*margin: 0 2px;*/
-    /*width: 30px;*/
-    /*height: 30px;*/
-    /*border: none;*/
-    /*-webkit-border-radius: 100%;*/
-    /*-moz-border-radius: 100%;*/
-    /*border-radius: 100%;*/
-    /*line-height: 30px;*/
-    /*color: #ffffff;*/
-    /*background-color: #999999;*/
-    /*-webkit-transition: all 0.25s ease;*/
-    /*transition: all 0.25s ease;*/
-/*}*/
-
-/*.carousel-indicators-numbers li.active, .carousel-indicators-numbers li:hover {*/
-    /*margin: 0 2px;*/
-    /*width: 30px;*/
-    /*height: 30px;*/
-    /*color: #000000;*/
-    /*background-color: initial;*/
-/*}*/
-
-/*.carousel-indicators-numbers {*/
-    /*top: 50px;*/
-    /*left: 150px;*/
-/*}*/
-
 #mainCarousel {
     margin-top: 5em;
     margin-bottom: 5em;
