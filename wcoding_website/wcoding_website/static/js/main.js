@@ -47,3 +47,10 @@ $(document).ready(function () {
         } // End if
     });
 })
+
+// fade In/Out
+$(document).ready(function () {
+    $("#meetTheTeam").click(function () {
+        $("#showMeetTheTeam").fadeToggle("slow");
+    });
+});

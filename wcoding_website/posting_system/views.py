@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from django.views.generic import ListView
+from django.views.generic import ListView, TemplateView
 from django.shortcuts import render, get_object_or_404
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.core.mail import send_mail
@@ -15,6 +15,7 @@ from .forms import EmailPostForm, CommentForm
 # Class Based View
 class PostListView(ListView):
     queryset = Post.published.all()
+    # Get the name of the item to be used in the context.
     context_object_name = 'posts'
     paginate_by = 3
     template_name = 'wcoding/post/list.html'
@@ -32,13 +33,13 @@ def post_list(request):
 
     best_picks = posts.filter(category='best_picks')
 
-    main_windows = posts.filter(category='main_window')
+    meet_the_teams = posts.filter(category='meet_the_team')
 
     return render(request, 'wcoding/index.html', {'fulltime_course': fulltime_course,
                                                   'parttime_course': parttime_course,
                                                   'camps': camps,
                                                   'best_picks': best_picks,
-                                                  'main_windows': main_windows})
+                                                  'meet_the_teams': meet_the_teams})
 
 
 def post_detail(request, year, month, day, post):

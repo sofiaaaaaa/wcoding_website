@@ -1,0 +1,185 @@
+/* sociallink */
+.sociallink1 {
+    float: right;
+    margin: 10px 20px;
+    width: 1em;
+    height: 1em;
+}
+
+.sociallink2 {
+    margin: 20px;
+    width: 1em;
+    height: 1em;
+}
+
+/* navbar */
+.navbar {
+    margin-bottom: 0;
+    background-color: #ffffff;
+    border: 0;
+    letter-spacing: 5px;
+}
+
+.navbar-brand{
+    padding: 0px;
+    height: 80px;
+}
+
+.navbar-brand>img {
+    height: 100%;
+    padding: 7px 15px;
+    width: auto;
+}
+
+.nav >li >a {
+    padding-top: 30px;
+    padding-bootom: 30px;
+}
+
+.navbar-toggle {
+    padding: 10px;
+    margin: 25px 15px 25px 0;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+/* navbar hover */
+#about_hover:hover, .active #about_hover {
+    background-color: transparent;
+    background: #0055F2;
+    background: -webkit-linear-gradient(left, #00B6F2, #0055F2);
+    background: -o-linear-gradient(right, #00B6F2, #0055F2);
+    background: -moz-linear-gradient(right, #00B6F2, #0055F2);
+    background: linear-gradient(to right, #00B6F2, #0055F2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    bottom: 2px;
+}
+
+#programs_hover:hover, .active #programs_hover {
+    background-color: transparent;
+    background: #00FC4C;
+    background: -webkit-linear-gradient(left, #02EAAB, #00FC4C);
+    background: -o-linear-gradient(right, #02EAAB, #00FC4C);
+    background: -moz-linear-gradient(right, #02EAAB, #00FC4C);
+    background: linear-gradient(to right, #02EAAB, #00FC4C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    bottom: 2px;
+}
+
+#news_hover:hover, .active #news_hover {
+    background-color: transparent;
+    background: #A50266;
+    background: -webkit-linear-gradient(left, #ED2B66, #A50266);
+    background: -o-linear-gradient(right, #ED2B66, #A50266);
+    background: -moz-linear-gradient(right, #ED2B66, #A50266);
+    background: linear-gradient(to right, #ED2B66, #A50266);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    bottom: 2px;
+}
+
+#contact_hover:hover, .active #contact_hover {
+    background-color: transparent;
+    background: #541DA6;
+    background: -webkit-linear-gradient(left, #541DD8, #541DA6);
+    background: -o-linear-gradient(right, #541DD8, #541DA6);
+    background: -moz-linear-gradient(right, #541DD8, #541DA6);
+    background: linear-gradient(to right, #541DD8, #541DA6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    bottom: 2px;
+}
+
+/* footer */
+.footer_line {
+    height: 3px;
+    background: #FE6E00;
+    background: -webkit-linear-gradient(left, #FE6E00, #FF593D);
+    background: -o-linear-gradient(right, #FE6E00, #FF593D);
+    background: -moz-linear-gradient(right, #FE6E00, #FF593D);
+    background: linear-gradient(to right, #FE6E00, #FF593D);
+    color: #ffffff;
+}
+
+/* bootstrap */
+.navbar-default .navbar-text {
+  color: #58595b;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #58595b;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #58595b;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #58595b;
+}
+
+.navbar-default .navbar-link {
+  color: #58595b;
+}
+
+.nanum {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+/* copyright*/
+#copyright_container {
+    position: relative;
+}
+
+#copyright {
+    position: absolute;
+    bottom: 5px;
+    font-size: 5px;
+    left: 50%;
+    transform: translate(-50%);
+    color: #ffffff;
+    width: 180px;
+}
+
+#copyright a {
+    color: #ffffff;
+}
+
+/* basic style */
+body {
+    font-size: 20px;
+    color: #58595B;
+    font-family: 'Dosis', sans-serif;
+    background-image: url('../images/Background.jpg');
+    background-size: cover;
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+}
+
+hr {
+    border-width: 3px;
+}
+
+a {
+    outline: none;
+    border: 0;
+    color: #58595B;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 5em;
+}
+
+/* nanum gothic google webfont*/
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);

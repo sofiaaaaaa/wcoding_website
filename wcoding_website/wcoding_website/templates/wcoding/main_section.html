@@ -1,3 +1,4 @@
+{% load post_tags %}
 {% load staticfiles %}
 
 <!-- main section -->
@@ -13,9 +14,10 @@
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
-            {% for main_window in main_windows|slice:":3" %}
+            {% show_main_windows as main_windows %}
+            {% for main_window in main_windows %}
             {# https://docs.djangoproject.com/en/dev/ref/templates/builtins/?from=olddocs#for #}
-            <div {% if forloop.first %}class="item active"{% else %}class="item"{% endif %}>
+            <div {% if forloop.first %}class="item active" {% else %} class="item" {% endif %}>
                 <a href="{{ main_window.get_absolute_url }}"><img src="{{ main_window.thumbnail_image.url }}"></a>
             </div>
             {% endfor %}

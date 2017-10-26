@@ -1,3 +1,4 @@
+{% load post_tags %}
 {% load staticfiles i18n %}
 
 <!-- about section-->
@@ -26,5 +27,12 @@
         </div>
     </div>
 
-    <h2 class="text-center"><a href="#" id="meetTheTeam" data-hover="{ MEET THE TEAM }">MEET THE TEAM</a></h2>
+    <h2 class="text-center" id="meetTheTeam" data-hover="{ MEET THE TEAM }" style="cursor: pointer;">MEET THE TEAM</h2>
 </div>
+
+{% show_meet_the_teams as meet_the_teams %}
+{% for meet_the_team in meet_the_teams %}
+    <div class="container" id="showMeetTheTeam" style="display: none;">
+        {{ meet_the_team.body|safe }}
+    </div>
+{% endfor %}

@@ -11,7 +11,7 @@ from django.views import defaults as default_views
 from posting_system.views import post_list
 
 urlpatterns = [
-
+    # would be deleted
     url(r'^home/$', TemplateView.as_view(template_name='pages/home.html'), name='home'),
     url(r'^about/$', TemplateView.as_view(template_name='pages/about.html'), name='about'),
 
@@ -19,16 +19,14 @@ urlpatterns = [
     url(r'^users/', include('wcoding_website.users.urls', namespace='users')),
     url(r'^accounts/', include('allauth.urls')),
 
-    # Your stuff: custom urls includes go here
-
     # CKEditor
     url(r'^ckeditor/', include('ckeditor_uploader.urls')),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 urlpatterns += i18n_patterns(
-    url(r'^$', post_list, name='index'),
-    # url(r'^$', TemplateView.as_view(template_name='wcoding/index.html'), name='index'),
+    # url(r'^$', post_list, name='index'),
+    url(r'^$', TemplateView.as_view(template_name='wcoding/index.html'), name='index'),
 
     # url(settings.ADMIN_URL, admin.site.urls),
     # Django Admin, use {% url 'admin:index' %}

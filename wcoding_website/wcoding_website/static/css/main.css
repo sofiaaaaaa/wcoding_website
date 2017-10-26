@@ -308,10 +308,6 @@
     border: none;
 }
 
-/*.carousel-control {*/
-    /*padding-top: 15%;*/
-    /*width: 5%;*/
-/*}*/
 #mainCarousel>.carousel-inner {
     height: 640px;
 }
@@ -343,6 +339,7 @@
 
 .nanum {
     font-family: 'Nanum Gothic', sans-serif;
+    margin-top: 5em;
 }
 
 /* copyright*/
@@ -390,10 +387,6 @@ a:hover {
 }
 
 footer {
-    margin-top: 5em;
-}
-
-.nanum {
     margin-top: 5em;
 }
 

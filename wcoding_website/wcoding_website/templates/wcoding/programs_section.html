@@ -1,4 +1,6 @@
-{% load staticfiles i18n %}
+{% load post_tags %}
+{% load staticfiles %}
+{% load i18n %}
 
 <!-- programs section -->
 <div id="programs" class="container">
@@ -17,20 +19,23 @@
 <div class="container">
     <div class="row">
         <div class="col-md-4">
-           {% for class in fulltime_course|slice:":1" %}
+            {% show_fulltime_course as fulltime_course  %}
+            {% for class in fulltime_course %}
                <a href="{{ class.get_absolute_url }}"><img class="image-responsive" src="{{ class.thumbnail_image.url }}" height="230px" width="300px"></a>
            {% endfor %}
         </div>
 
         <div class="col-md-4">
-            {% for class in parttime_course|slice:":1" %}
+            {% show_parttime_course as parttime_course %}
+            {% for class in parttime_course %}
                 <a href="{{ class.get_absolute_url }}"><img class="image-responsive" src="{{ class.thumbnail_image.url }}" height="230px" width="300px"></a>
             {% endfor %}
 
         </div>
 
         <div class="col-md-4">
-            {% for camp in camps|slice:":1" %}
+            {% show_camps as camps %}
+            {% for camp in camps %}
                 <a href="{{ camp.get_absolute_url }}"><img class="image-responsive" src="{{ camp.thumbnail_image.url }}" height="230px" width="300px"></a>
             {% endfor %}
         </div>
@@ -43,7 +48,8 @@
     <h1>BEST PICKS</h1>
 
     <div class="row">
-        {% for best_pick in best_picks|slice:":4" %}
+        {% show_best_picks as best_picks %}
+        {% for best_pick in best_picks %}
             <div class="col-md-3">
                 <a href="{{ best_pick.get_absolute_url }}"><img class="image-responsive" src="{{ best_pick.thumbnail_image.url }}" height="230px" width="300px"></a>
             </div>
@@ -54,5 +60,5 @@
         <p>{% trans "Learn to Code and English at the same time & Pick the course that intrigues you!" %}</p>
 
     </section>
-    <h2 class="text-center"><a id="learnMore" href="#" data-hover="{ LEARN MORE }">LEARN MORE</a></h2>
+    <h2 class="text-center"><a id="learnMore" href="{% url "post:list" %}" data-hover="{ LEARN MORE }">LEARN MORE</a></h2>
 </div>
