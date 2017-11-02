@@ -1,4 +1,6 @@
-{% load staticfiles i18n %}
+{% load post_tags %}
+{% load staticfiles %}
+{% load i18n %}
 
 <!-- NEWS & EVENTS section-->
 <div id="news" class="container">
@@ -29,84 +31,30 @@
 
         <div class="col-md-9">
             <div id="newsCarousel1" class="carousel slide">
-                <!-- Carouse items -->
                 <div class="carousel-inner">
-                    <div class="item active">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="panel-default panel news_main">
-                                    <div class="panel-body">
-                                        <br><br><br><br><br>
-                                        <h2 style="margin: 0px;">TECH</h2>
-                                        <h2 style="margin-top: 0px;">MONDAYS</h2>
-                                    </div>
+                    {% show_latest_news_events as news_events %}
+                    {% for news_event in news_events %}
+                        {% if forloop.first %}<div class="item active ">{% endif %}
+                        {% if forloop.counter == 4 %} <div class="item">{% endif %}
+                            {% if forloop.first %}<div class="row">{% endif %}
+                            {% if forloop.counter == 4 %}<div class="row">{% endif %}
+                                <div class="col-md-4">
+                                    <a href="{{ news_event.get_absolute_url }}"><img src="{{ news_event.thumbnail_image.url }}"></a>
+                                </div>
+                            {% if forloop.counter == 3 %}
                                 </div>
                             </div>
-
-                            <div class="col-md-4">
-                                <div class="panel-default panel news_main">
-                                    <div class="panel-body">
-                                        <br><br><br><br><br>
-                                        <h2 style="margin: 0px;">SMART</h2>
-                                        <h2 style="margin-top: 0px;">TOYS</h2>
-                                    </div>
+                            {% endif %}
+                            {% if forloop.last %}
                                 </div>
                             </div>
-
-                            <div class="col-md-4">
-                                <div class="panel-default panel news_main">
-                                    <div class="panel-body">
-                                        <br><br><br><br><br>
-                                        <h2 style="margin: 0px;">SMART</h2>
-                                        <h2 style="margin-top: 0px;">TOYS</h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- row -->
-                    </div>
-                    <!-- item -->
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="panel-default panel news_main">
-                                    <div class="panel-body">
-                                        <br><br><br><br><br>
-                                        <h2 style="margin: 0px;">TECH</h2>
-                                        <h2 style="margin-top: 0px;">MONDAYS</h2>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <div class="panel-default panel news_main">
-                                    <div class="panel-body">
-                                        <br><br><br><br><br>
-                                        <h2 style="margin: 0px;">SMART</h2>
-                                        <h2 style="margin-top: 0px;">TOYS</h2>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <div class="panel-default panel news_main">
-                                    <div class="panel-body">
-                                        <br><br><br><br><br>
-                                        <h2 style="margin: 0px;">SMART</h2>
-                                        <h2 style="margin-top: 0px;">TOYS</h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- row -->
-                    </div>
-                    <!-- item -->
+                            {% endif %}
+                    {% endfor %}
                 </div>
-                <!-- carousel-inner -->
+            </div>
+
                 <a class="left carousel-control" href="#newsCarousel1" data-slide="prev"><</a>
                 <a class="right carousel-control" href="#newsCarousel1" data-slide="next">></a>
-            </div>
-            <!-- newsCarousel -->
         </div>
     </div>
 
@@ -114,84 +62,30 @@
     <div class="row">
         <div class="col-md-9">
             <div id="newsCarousel2" class="carousel slide">
-                <!-- Carouse items -->
                 <div class="carousel-inner">
-                    <div class="item active">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="panel-default panel news_main">
-                                    <div class="panel-body">
-                                        <br><br><br><br><br>
-                                        <h2 style="margin: 0px">SUMMER</h2>
-                                        <h2 style="margin-top: 0px">CODE</h2>
-                                    </div>
+                    {% show_past_news_events as news_events %}
+                    {% for news_event in news_events %}
+                        {% if forloop.first %}<div class="item active ">{% endif %}
+                        {% if forloop.counter == 4 %} <div class="item">{% endif %}
+                            {% if forloop.first %}<div class="row">{% endif %}
+                            {% if forloop.counter == 4 %}<div class="row">{% endif %}
+                                <div class="col-md-4">
+                                    <a href="{{ news_event.get_absolute_url }}"><img src="{{ news_event.thumbnail_image.url }}"></a>
+                                </div>
+                            {% if forloop.counter == 3 %}
                                 </div>
                             </div>
-
-                            <div class="col-md-4">
-                                <div class="panel-default panel news_main">
-                                    <div class="panel-body">
-                                        <br><br><br><br><br>
-                                        <h2 style="margin: 0px">SUMMER</h2>
-                                        <h2 style="margin-top: 0px">CODE</h2>
-                                    </div>
+                            {% endif %}
+                            {% if forloop.last %}
                                 </div>
                             </div>
-
-                            <div class="col-md-4">
-                                <div class="panel-default panel news_main">
-                                    <div class="panel-body">
-                                        <br><br><br><br><br>
-                                        <h2 style="margin: 0px">GOOGLE</h2>
-                                        <h2 style="margin-top: 0px">X MASTERS</h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /row -->
-                    </div>
-                    <!-- /item -->
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="panel-default panel news_main">
-                                    <div class="panel-body">
-                                        <br><br><br><br><br>
-                                        <h2 style="margin: 0px">SUMMER</h2>
-                                        <h2 style="margin-top: 0px">CODE</h2>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <div class="panel-default panel news_main">
-                                    <div class="panel-body">
-                                        <br><br><br><br><br>
-                                        <h2 style="margin: 0px">GOOGLE</h2>
-                                        <h2 style="margin-top: 0px">X MASTERS</h2>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <div class="panel-default panel news_main">
-                                    <div class="panel-body">
-                                        <br><br><br><br><br>
-                                        <h2 style="margin: 0px">GOOGLE</h2>
-                                        <h2 style="margin-top: 0px">X MASTERS</h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /row -->
-                    </div>
-                    <!-- /item -->
+                            {% endif %}
+                    {% endfor %}
                 </div>
-                <!-- /carousel-inner -->
+            </div>
+
                 <a class="left carousel-control" href="#newsCarousel2" data-slide="prev"><</a>
                 <a class="right carousel-control" href="#newsCarousel2" data-slide="next">></a>
-            </div>
-            <!-- /newsCarousel -->
         </div>
 
         <div class="col-md-3">
@@ -204,9 +98,12 @@
             </div>
         </div>
     </div>
+</div>
 
+<div class="container">
     <section class="nanum">
         <p>{% trans "wcoding plans monthly free seminars and events concerning programming and IT education! If you want to receive information about these events, please subscribe to our mailing list!" %}</p>
     </section>
-    <h2 class="text-center"><a href="#" id="seeAllNews" data-hover="{ SEE ALL THE NEWS & EVENTS }">SEE ALL THE NEWS & EVENTS</a></h2>
+
+    <h2 class="text-center"><a href="{% url "post:news" %}" id="seeAllNews" data-hover="{ SEE ALL THE NEWS & EVENTS }">SEE ALL THE NEWS & EVENTS</a></h2>
 </div>

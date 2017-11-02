@@ -2,27 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56361672-4672-4008-b5a5-e23c5254fe69" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/posting_system/templatetags/post_tags.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/css/list.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wcoding_website/posting_system/templatetags/blog_tags.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/images/main_images/main1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/images/main_images/main2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/images/main_images/main3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/pagination.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/newsList.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcoding_website/sqlite3" afterPath="$PROJECT_DIR$/wcoding_website/sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/wcoding_website.iml" afterPath="$PROJECT_DIR$/.idea/wcoding_website.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcoding_website/config/urls.py" afterPath="$PROJECT_DIR$/wcoding_website/config/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcoding_website/posting_system/templatetags/post_tags.py" afterPath="$PROJECT_DIR$/wcoding_website/posting_system/templatetags/post_tags.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcoding_website/posting_system/urls.py" afterPath="$PROJECT_DIR$/wcoding_website/posting_system/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcoding_website/posting_system/views.py" afterPath="$PROJECT_DIR$/wcoding_website/posting_system/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/css/main.css" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/js/main.js" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/about_section.html" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/about_section.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/base.html" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/main_section.html" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/main_section.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/news_events_section.html" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/news_events_section.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/list.html" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/programs_section.html" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/programs_section.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,96 +57,28 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wcoding_website/posting_system/urls.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="133">
-                  <caret line="9" column="60" lean-forward="true" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="list.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/static/css/list.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="247">
-                  <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="list.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/list.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2584">
-                  <caret line="136" column="22" lean-forward="true" selection-start-line="136" selection-start-column="22" selection-end-line="136" selection-end-column="22" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wcoding_website/posting_system/views.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="304">
-                  <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-                  <folding>
-                    <element signature="e#25#80#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wcoding_website/posting_system/models.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="418">
-                  <caret line="35" column="47" lean-forward="false" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/static/css/main.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="304">
-                  <caret line="367" column="37" lean-forward="true" selection-start-line="367" selection-start-column="37" selection-end-line="367" selection-end-column="37" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="programs_section.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/programs_section.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="171">
-                  <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wcoding_website/posting_system/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-874">
+              <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+              <folding>
+                <element signature="e#25#80#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="Python Script" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -181,6 +101,7 @@
       <find>template</find>
       <find>blog</find>
       <find>panel</find>
+      <find>section</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -200,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wcoding_website/.editorconfig" />
         <option value="$PROJECT_DIR$/wcoding_website/compose/production/postgres/Dockerfile" />
         <option value="$PROJECT_DIR$/wcoding_website/compose/local/django/Dockerfile" />
         <option value="$PROJECT_DIR$/wcoding_website/local.yml" />
@@ -236,21 +156,22 @@
         <option value="$PROJECT_DIR$/wcoding_website/locale/ko/LC_MESSAGES/django.po" />
         <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/contact_section.html" />
         <option value="$PROJECT_DIR$/wcoding_website/posting_system/models.py" />
-        <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/news_events_section.html" />
-        <option value="$PROJECT_DIR$/wcoding_website/posting_system/urls.py" />
         <option value="$PROJECT_DIR$/wcoding_website/config/urls.py" />
-        <option value="$PROJECT_DIR$/wcoding_website/posting_system/views.py" />
         <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/index.html" />
         <option value="$PROJECT_DIR$/wcoding_website/posting_system/templatetags/blog_tags.py" />
         <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/main_section.html" />
-        <option value="$PROJECT_DIR$/wcoding_website/posting_system/templatetags/post_tags.py" />
         <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/programs_section.html" />
         <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/about_section.html" />
         <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/static/js/main.js" />
         <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/static/css/list.css" />
-        <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/static/css/main.css" />
         <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/base.html" />
+        <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/static/css/main.css" />
+        <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/news_events_section.html" />
+        <option value="$PROJECT_DIR$/wcoding_website/posting_system/templatetags/post_tags.py" />
+        <option value="$PROJECT_DIR$/wcoding_website/posting_system/urls.py" />
         <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/list.html" />
+        <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/newsList.html" />
+        <option value="$PROJECT_DIR$/wcoding_website/posting_system/views.py" />
       </list>
     </option>
   </component>
@@ -261,9 +182,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="913" />
-    <option name="width" value="934" />
-    <option name="height" value="1087" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1874" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -281,7 +203,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -378,6 +299,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -669,7 +591,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508741744405</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="modify list.html&#10;add fade In/Out effect on meet_the_team in index.html&#10;add list.css&#10;delete post_list function view&#10;add TemplateView for index.html&#10;add custom tags">
+      <created>1509026838040</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1509026838040</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -681,20 +610,18 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1856" height="1096" extended-state="6" />
+    <frame x="1912" y="-8" width="1874" height="1096" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31074035" sideWeight="0.50501114" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31595412" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31595412" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3274244" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43789473" sideWeight="0.49610245" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30865484" sideWeight="0.49779248" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@wcoding_website" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35453597" sideWeight="0.49498886" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16091314" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="manage.py@wcoding_website" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35453597" sideWeight="0.49498886" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16593164" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3253389" sideWeight="0.49443206" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906458" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -707,7 +634,9 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -800,7 +729,8 @@
     <MESSAGE value="init grappelli" />
     <MESSAGE value="final main carousel" />
     <MESSAGE value="delete old main_window carousel css" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete old main_window carousel css" />
+    <MESSAGE value="modify list.html&#10;add fade In/Out effect on meet_the_team in index.html&#10;add list.css&#10;delete post_list function view&#10;add TemplateView for index.html&#10;add custom tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify list.html&#10;add fade In/Out effect on meet_the_team in index.html&#10;add list.css&#10;delete post_list function view&#10;add TemplateView for index.html&#10;add custom tags" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -809,7 +739,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wcoding_website/posting_system/migrations/0007_migrate_traslatable_fields.py" />
     <entry file="file://$PROJECT_DIR$/wcoding_website/posting_system/migrations/0006_add_translation_model.py" />
     <entry file="file://$PROJECT_DIR$/wcoding_website/requirements/production.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -933,18 +862,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/news_events_section.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1031">
-          <caret line="67" column="33" lean-forward="true" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wcoding_website/staticfiles/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3306">
           <caret line="432" column="26" lean-forward="true" selection-start-line="432" selection-start-column="26" selection-end-line="432" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -952,7 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-171">
           <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -960,7 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-798">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -968,7 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -976,7 +894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -984,7 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -992,15 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1235">
           <caret line="65" column="11" lean-forward="false" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/main_section.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1012,47 +919,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wcoding_website/posting_system/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="35" column="47" lean-forward="false" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wcoding_website/posting_system/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding>
-            <element signature="e#25#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wcoding_website/posting_system/templatetags/post_tags.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#27#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/pagination.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/pagination.html" />
     <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/static/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="53" column="12" lean-forward="false" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1060,10 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
           <caret line="34" column="55" lean-forward="true" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#3;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1071,7 +938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1079,55 +945,106 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wcoding_website/posting_system/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="60" lean-forward="true" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/static/css/list.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="855">
+          <caret line="81" column="93" lean-forward="false" selection-start-line="81" selection-start-column="93" selection-end-line="81" selection-end-column="93" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/static/css/main.css">
+    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/main_section.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="367" column="37" lean-forward="true" selection-start-line="367" selection-start-column="37" selection-end-line="367" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/programs_section.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        <state relative-caret-position="19">
+          <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2584">
-          <caret line="136" column="22" lean-forward="true" selection-start-line="136" selection-start-column="22" selection-end-line="136" selection-end-column="22" />
+        <state relative-caret-position="57">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wcoding_website/posting_system/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="58" lean-forward="false" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/programs_section.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="49" column="21" lean-forward="false" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/newsList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="364" column="0" lean-forward="true" selection-start-line="364" selection-start-column="0" selection-end-line="364" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wcoding_website/posting_system/templatetags/post_tags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="52" column="27" lean-forward="false" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="27" />
+          <folding>
+            <element signature="e#25#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wcoding_website/posting_system/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-247">
+          <caret line="68" column="39" lean-forward="false" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/news_events_section.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="107" column="82" lean-forward="false" selection-start-line="107" selection-start-column="82" selection-end-line="107" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wcoding_website/posting_system/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-874">
+          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding>
+            <element signature="e#25#80#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
