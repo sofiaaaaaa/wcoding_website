@@ -239,6 +239,11 @@
     color: #ffffff;
 }
 
+#newsCarousel1 > img, #newsCarousel2 > img {
+    height: 230px;
+    margin-right: 15px;
+}
+
 /* contact section */
 #contact {
     margin-top: 5em;
@@ -340,6 +345,7 @@
 .nanum {
     font-family: 'Nanum Gothic', sans-serif;
     margin-top: 5em;
+    margin-bottom: 5em;
 }
 
 /* copyright*/

@@ -1,0 +1,19 @@
+{% extends 'wcoding/base.html' %}
+
+{% load post_tags %}
+{% load staticfiles %}
+{% load i18n %}
+
+{% block title %}News & Events{% endblock %}
+
+ {% block content %}
+<div class="container">
+    {% show_latest_news_events as news_events %}
+    {% for news_event in news_events %}
+        <h1>{{ news_event.title }}</h1>
+        <h2>{{ news_event.author }}</h2>
+        <p>{{ news_event.body|safe }}</p>
+    {% endfor %}
+
+</div>
+ {% endblock content %}

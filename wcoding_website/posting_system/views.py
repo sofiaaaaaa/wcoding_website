@@ -14,11 +14,13 @@ from .forms import EmailPostForm, CommentForm
 
 # Class Based View
 class PostListView(ListView):
-    queryset = Post.published.all()
-    # Get the name of the item to be used in the context.
-    context_object_name = 'posts'
-    paginate_by = 3
+    model = Post
     template_name = 'wcoding/post/list.html'
+
+
+class NewsListView(ListView):
+    model = Post
+    template_name = 'wcoding/post/newsList.html'
 
 
 # Function View

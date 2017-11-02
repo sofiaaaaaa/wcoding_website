@@ -9,6 +9,9 @@ urlpatterns = [
     # program Learn More list views
     url(r'list', views.PostListView.as_view(), name='list'),
 
+    # See All The News & Events views
+    url(r'news', views.NewsListView.as_view(), name='news'),
+
     # [-\w] : a word character (A-Za-z0-9_) or a dash(-) can go
     url(r'^(?P<year>\d{4})/(?P<month>\d{2})/(?P<day>\d{2})/(?P<post>[-\w]+)/$', views.post_detail, name='post_detail'),
 

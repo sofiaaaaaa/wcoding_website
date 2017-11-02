@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from django import template
 from django.db.models import Count
 
@@ -45,6 +47,20 @@ def show_meet_the_teams(count=1):
     posts = Post.published.all()
 
     return posts.filter(category='meet_the_team')[:count]
+
+
+@register.assignment_tag
+def show_latest_news_events():
+    posts = Post.published.all()
+
+    return posts.filter(category='news_events')
+
+
+@register.assignment_tag
+def show_past_news_events():
+    posts = Post.published.order_by('publish')
+
+    return posts.filter(category='news_events')
 
 
 @register.simple_tag
