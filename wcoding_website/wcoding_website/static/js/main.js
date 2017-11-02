@@ -29,7 +29,7 @@ $(document).ready(function () {
         // Make sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {
 
-            // Prevent default anchor click behaviro
+            // Prevent default anchor click behavior
             event.preventDefault();
 
             // Store hash
@@ -46,7 +46,7 @@ $(document).ready(function () {
             });
         } // End if
     });
-})
+});
 
 // fade In/Out
 $(document).ready(function () {
