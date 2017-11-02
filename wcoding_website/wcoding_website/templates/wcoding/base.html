@@ -43,9 +43,8 @@
     {% get_current_language as LANGUAGE_CODE %}
     {% get_available_languages as LANGUAGES %}
     {% get_language_info_list for LANGUAGES as languages %}
-    {% trans "Language" %}:
     {% for language in languages %}
-        <a href="/{{ language.code }}/">{{ language.name_local }}</a>
+        <a href="/{{ language.code }}/">{{ language.name_local }}</a> {% if forloop.first %}/{% endif %}
     {% endfor %}
 
     {# social Link #}

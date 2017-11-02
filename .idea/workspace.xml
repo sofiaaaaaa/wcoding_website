@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="56361672-4672-4008-b5a5-e23c5254fe69" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/css/main.css" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/base.html" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/base.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -50,24 +51,64 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <element signature="e#4590#4596#0#HTML" expanded="true" />
-                <element signature="e#4597#4603#0#HTML" expanded="true" />
-                <element signature="e#4625#4631#0#HTML" expanded="true" />
-                <element signature="e#4634#4640#0#HTML" expanded="true" />
-                <element signature="e#4648#4654#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/base.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-209">
+                  <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+                  <folding>
+                    <element signature="e#4597#4603#0#HTML" expanded="true" />
+                    <element signature="e#4604#4610#0#HTML" expanded="true" />
+                    <element signature="e#4632#4638#0#HTML" expanded="true" />
+                    <element signature="e#4641#4647#0#HTML" expanded="true" />
+                    <element signature="e#4655#4661#0#HTML" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="about_section.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/about_section.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="722">
+                  <caret line="34" column="55" lean-forward="true" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="contact_section.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/contact_section.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="437">
+                  <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+                  <folding>
+                    <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/static/css/main.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="598">
+                  <caret line="403" column="20" lean-forward="true" selection-start-line="403" selection-start-column="20" selection-end-line="403" selection-end-column="20" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -104,7 +145,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="contact" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="PUSH_TAGS">
@@ -162,12 +203,12 @@
         <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/programs_section.html" />
         <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/about_section.html" />
         <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/static/css/list.css" />
-        <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/static/css/main.css" />
         <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/list.html" />
         <option value="$PROJECT_DIR$/wcoding_website/posting_system/views.py" />
         <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/static/js/main.js" />
         <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/contact_section.html" />
         <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/base.html" />
+        <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/static/css/main.css" />
       </list>
     </option>
   </component>
@@ -217,6 +258,21 @@
               <item name="wcoding_website" type="462c0819:PsiDirectoryNode" />
               <item name="wcoding_website" type="462c0819:PsiDirectoryNode" />
               <item name="wcoding_website" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wcoding_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wcoding_website" type="462c0819:PsiDirectoryNode" />
+              <item name="wcoding_website" type="462c0819:PsiDirectoryNode" />
+              <item name="wcoding_website" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wcoding_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wcoding_website" type="462c0819:PsiDirectoryNode" />
+              <item name="wcoding_website" type="462c0819:PsiDirectoryNode" />
+              <item name="wcoding_website" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wcoding_website" type="b2602c69:ProjectViewProjectNode" />
@@ -536,7 +592,14 @@
       <option name="project" value="LOCAL" />
       <updated>1509594710313</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="delete trans &quot;W coding Campus&quot; on footer">
+      <created>1509601199131</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1509601199131</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -558,7 +621,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3274244" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43789473" sideWeight="0.49610245" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30865484" sideWeight="0.49779248" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@wcoding_website" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35453597" sideWeight="0.49498886" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@wcoding_website" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35453597" sideWeight="0.49498886" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16593164" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3253389" sideWeight="0.49443206" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906458" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -684,7 +747,8 @@
     <MESSAGE value="final main carousel" />
     <MESSAGE value="delete old main_window carousel css" />
     <MESSAGE value="just commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="just commit" />
+    <MESSAGE value="delete trans &quot;W coding Campus&quot; on footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete trans &quot;W coding Campus&quot; on footer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -907,13 +971,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/pagination.html" />
-    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/about_section.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="34" column="55" lean-forward="true" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/403_csrf.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -944,13 +1001,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="367" column="37" lean-forward="true" selection-start-line="367" selection-start-column="37" selection-end-line="367" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/programs_section.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -973,24 +1023,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/contact_section.html">
+    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+        <state relative-caret-position="-209">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="e#4597#4603#0#HTML" expanded="true" />
+            <element signature="e#4604#4610#0#HTML" expanded="true" />
+            <element signature="e#4632#4638#0#HTML" expanded="true" />
+            <element signature="e#4641#4647#0#HTML" expanded="true" />
+            <element signature="e#4655#4661#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/about_section.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="34" column="55" lean-forward="true" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/base.html">
+    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="598">
+          <caret line="403" column="20" lean-forward="true" selection-start-line="403" selection-start-column="20" selection-end-line="403" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/contact_section.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
           <folding>
-            <element signature="e#4590#4596#0#HTML" expanded="true" />
-            <element signature="e#4597#4603#0#HTML" expanded="true" />
-            <element signature="e#4625#4631#0#HTML" expanded="true" />
-            <element signature="e#4634#4640#0#HTML" expanded="true" />
-            <element signature="e#4648#4654#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
