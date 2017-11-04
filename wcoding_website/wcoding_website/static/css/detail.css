@@ -119,6 +119,7 @@
     background-image: -moz-linear-gradient(left, #02EAAB, #00FC4C);
     background-image: linear-gradient(to right, #02EAAB, #00FC4C);
     margin-bottom: 3em;
+    border: 0px;
 }
 
 /* bootstrap */

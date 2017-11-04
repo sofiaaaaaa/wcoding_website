@@ -149,16 +149,6 @@
     -webkit-text-fill-color: transparent;
 }
 
-.learnMore2:hover {
-    font-size: 0;
-}
-
-.learnMore2:hover::after {
-    content: attr(data-hover);
-    font-size: 24px;
-    color: #ffffff;
-}
-
 #online_consultation:hover {
     font-size: 0;
 }
@@ -169,6 +159,12 @@
     color: #541DD8;
 }
 
+.section-title {
+    padding-top: 60px;
+    font-size: 6.5rem;
+    margin-bottom: 0px;
+}
+
 /* main window*/
 
 #mainCarousel {
@@ -177,14 +173,13 @@
 }
 
 /* about section */
-#about_line {
+.about_section_line {
     height: 3px;
-    background: #0055F2;
-    background: -webkit-linear-gradient(left, #00B6F2, #0055F2);
-    background: -o-linear-gradient(right, #00B6F2, #0055F2);
-    background: -moz-linear-gradient(right, #00B6F2, #0055F2);
-    background: linear-gradient(to right, #00B6F2, #0055F2);
-    margin-bottom: 2.5em;
+    background-image: -webkit-linear-gradient(left, #00B6F2, #0055F2);
+    background-image: -o-linear-gradient(right, #00B6F2, #0055F2);
+    background-image: -moz-linear-gradient(right, #00B6F2, #0055F2);
+    background-image: linear-gradient(to right, #00B6F2, #0055F2);
+    border: 0px;
 }
 
 #meetTheTeam {
@@ -196,14 +191,13 @@
     margin-top: 5em;
 }
 
-#programs_line {
+.programs_section_line {
     height: 3px;
-    background: #00FC4C;
-    background: -webkit-linear-gradient(left, #02EAAB, #00FC4C);
-    background: -o-linear-gradient(right, #02EAAB, #00FC4C);
-    background: -moz-linear-gradient(right, #02EAAB, #00FC4C);
-    background: linear-gradient(to right, #02EAAB, #00FC4C);
-    margin-bottom: 2.5em;
+    background-image: -webkit-linear-gradient(left, #02EAAB, #00FC4C);
+    background-image: -o-linear-gradient(right, #02EAAB, #00FC4C);
+    background-image: -moz-linear-gradient(right, #02EAAB, #00FC4C);
+    background-image: linear-gradient(to right, #02EAAB, #00FC4C);
+    border: 0px;
 }
 
 .programs_main {
@@ -220,14 +214,13 @@
     margin-top: 5em;
 }
 
-#news_line {
+.news_section_line {
     height: 3px;
-    background: #ED2B66;
-    background: -webkit-linear-gradient(left, #ED2B66, #A50266);
-    background: -o-linear-gradient(right, #ED2B66, #A50266);
-    background: -moz-linear-gradient(right, #ED2B66, #A50266);
-    background: linear-gradient(to right, #ED2B66, #A50266);
-    margin-bottom: 2.5em;
+    background-image: -webkit-linear-gradient(left, #ED2B66, #A50266);
+    background-image: -o-linear-gradient(right, #ED2B66, #A50266);
+    background-image: -moz-linear-gradient(right, #ED2B66, #A50266);
+    background-image: linear-gradient(to right, #ED2B66, #A50266);
+    border: 0px;
 }
 
 .news_main {
@@ -249,25 +242,23 @@
     margin-top: 5em;
 }
 
-#contact_line {
+.contact_section_line {
     height: 3px;
-    background: #541DD8;
-    background: -webkit-linear-gradient(left, #541DD8, #541DA6);
-    background: -o-linear-gradient(right, #541DD8, #541DA6);
-    background: -moz-linear-gradient(right, #541DD8, #541DA6);
-    background: linear-gradient(to right, #541DD8, #541DA6);
-    margin-bottom: 2.5em;
+    background-image: -webkit-linear-gradient(left, #541DD8, #541DA6);
+    background-image: -o-linear-gradient(right, #541DD8, #541DA6);
+    background-image: -moz-linear-gradient(right, #541DD8, #541DA6);
+    background-image: linear-gradient(to right, #541DD8, #541DA6);
+    border: 0px;
 }
 
 /* footer */
 .footer_line {
     height: 3px;
-    background: #FE6E00;
-    background: -webkit-linear-gradient(left, #FE6E00, #FF593D);
-    background: -o-linear-gradient(right, #FE6E00, #FF593D);
-    background: -moz-linear-gradient(right, #FE6E00, #FF593D);
-    background: linear-gradient(to right, #FE6E00, #FF593D);
-    color: #ffffff;
+    background-image: -webkit-linear-gradient(left, #FE6E00, #FF593D);
+    background-image: -o-linear-gradient(right, #FE6E00, #FF593D);
+    background-image: -moz-linear-gradient(right, #FE6E00, #FF593D);
+    background-image: linear-gradient(to right, #FE6E00, #FF593D);
+    border: 0px;
 }
 
 /* bootstrap */
@@ -321,27 +312,7 @@
     height: 230px;
 }
 
-.col-md-offset-4, .col-md-offset-3 {
-    font-size: 65px;
-    padding-top: 60px;
-}
-
-/* map */
-.map-responsive{
-    overflow:hidden;
-    padding-bottom:50%;
-    position:relative;
-    height: 600px;
-}
-
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
-
+/* nanum */
 .nanum {
     font-family: 'Nanum Gothic', sans-serif;
     margin-top: 5em;
