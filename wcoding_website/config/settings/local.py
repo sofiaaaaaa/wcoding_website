@@ -103,7 +103,7 @@ CKEDITOR_CONFIGS = {
             {'name': 'editing', 'items': ['Find', 'Replace', '-', 'SelectAll']},
             {'name': 'forms',
              'items': ['Form', 'Checkbox', 'Radio', 'TextField', 'Textarea', 'Select', 'Button', 'ImageButton',
-                       'HiddenField']},
+                       'HiddenField', 'CollapsibleItem', 'AccordionList']},
             '/',
             {'name': 'basicstyles',
              'items': ['Bold', 'Italic', 'Underline', 'Strike', 'Subscript', 'Superscript', '-', 'RemoveFormat']},
@@ -114,7 +114,7 @@ CKEDITOR_CONFIGS = {
             {'name': 'links', 'items': ['Link', 'Unlink', 'Anchor']},
             {'name': 'insert',
              'items': ['Image', 'Flash', 'Table', 'HorizontalRule', 'Smiley', 'SpecialChar', 'PageBreak', 'Iframe',
-                       'Html5video']},
+                       'Html5video', 'Youtube']},
             '/',
             {'name': 'styles', 'items': ['Styles', 'Format', 'Font', 'FontSize']},
             {'name': 'colors', 'items': ['TextColor', 'BGColor']},
@@ -146,7 +146,7 @@ CKEDITOR_CONFIGS = {
             'autoembed',
             'embedsemantic',
             'autogrow',
-            'devtools',
+            # 'devtools',
             'widget',
             'lineutils',
             'clipboard',
@@ -161,7 +161,10 @@ CKEDITOR_CONFIGS = {
             'youtube',
             'uploadfile',
             'panelbutton',
-            'button'
+            'button',
+            'collapsibleItem',
+            'accordionList',
+            'youtube'
         ]),
     }
 }
