@@ -1,104 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56361672-4672-4008-b5a5-e23c5254fe69" name="Default" comment="adding CKEditor plugins&#10;added CKEDITOR_CONFIGS in local.py">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/html5video/icons/html5video.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/youtube/images/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/af.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/az.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/de-ch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/en-gb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/es-mx.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/eu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/km.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/ku.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/oc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/pt-br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/sq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/tt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/ug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/lang/zh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/html5video/dialogs/html5video.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/html5video/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/html5video/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/html5video/lang/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/html5video/lang/eu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/html5video/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/html5video/lang/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/html5video/lang/uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/html5video/lang/uz.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/html5video/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/panelbutton/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/uploadfile/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/widgetselection/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/wysiwygarea/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/wysiwygarea/samples/fullpage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/youtube/lang/ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/youtube/lang/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/youtube/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/youtube/lang/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/youtube/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/youtube/lang/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/youtube/lang/et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/youtube/lang/eu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/youtube/lang/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/youtube/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/youtube/lang/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/youtube/lang/hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/youtube/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/youtube/lang/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/youtube/lang/ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/youtube/lang/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/youtube/lang/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/youtube/lang/nn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/youtube/lang/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/youtube/lang/pt-br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/youtube/lang/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/youtube/lang/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/youtube/lang/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/youtube/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/youtube/lang/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/youtube/lang/zh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/youtube/plugin.js" />
+    <list default="true" id="56361672-4672-4008-b5a5-e23c5254fe69" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcoding_website/config/settings/local.py" afterPath="$PROJECT_DIR$/wcoding_website/config/settings/local.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/base.html" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/contact_section.html" afterPath="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/contact_section.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -146,86 +52,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main_section.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/main_section.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-              <folding>
-                <marker date="1509606501116" expanded="true" signature="316:437" ph="..." />
-                <marker date="1509606501116" expanded="true" signature="375:424" ph="..." />
-                <marker date="1509606501116" expanded="true" signature="477:1603" ph="..." />
-                <marker date="1509606501116" expanded="true" signature="487:840" ph="{% with comments.count as total_comments ... %}" />
-                <marker date="1509606501116" expanded="true" signature="546:817" ph="..." />
-                <marker date="1509606501116" expanded="true" signature="566:723" ph=" The pluralize template filter displays an &quot;s&quot; if the value is different than 1. The preceding t... %}" />
-                <marker date="1509606501116" expanded="true" signature="850:1233" ph="{% for comment in comments ... %}" />
-                <marker date="1509606501116" expanded="true" signature="912:1145" ph="..." />
-                <marker date="1509606501116" expanded="true" signature="945:1080" ph="..." />
-                <marker date="1509606501116" expanded="true" signature="1243:1593" ph="{% if new_comment ... %}" />
-                <marker date="1509606501116" expanded="true" signature="1414:1572" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1444">
-              <caret line="76" column="14" lean-forward="false" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
+            <state relative-caret-position="1463">
+              <caret line="110" column="68" lean-forward="true" selection-start-line="110" selection-start-column="68" selection-end-line="110" selection-end-column="68" />
               <folding>
-                <marker date="1509606501108" expanded="false" signature="4590:4596" ph="©" />
-                <marker date="1509606501108" expanded="false" signature="4597:4603" ph=" " />
-                <marker date="1509606501108" expanded="false" signature="4625:4631" ph=" " />
-                <marker date="1509606501108" expanded="false" signature="4634:4640" ph=" " />
-                <marker date="1509606501108" expanded="false" signature="4648:4654" ph=" " />
-                <marker date="1509606501108" expanded="false" signature="5301:5316" ph="..." />
-                <marker date="1509606501108" expanded="false" signature="5327:5333" ph=" " />
-                <marker date="1509606501108" expanded="false" signature="5381:5396" ph="..." />
-                <marker date="1509606501108" expanded="false" signature="5407:5413" ph=" " />
-                <marker date="1509606501108" expanded="false" signature="5540:5555" ph="..." />
-                <marker date="1509606501108" expanded="false" signature="5566:5572" ph=" " />
+                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#626#762#0#HTML" expanded="false" />
+                <element signature="n#block#0;n#!!top" expanded="false" />
+                <element signature="e#1506#1716#0#HTML" expanded="false" />
+                <element signature="n#for#0;n#!!top" expanded="false" />
+                <element signature="n#img#0;n#a#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#img#0;n#a#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#img#0;n#a#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#img#0;n#a#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="local.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wcoding_website/config/settings/local.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1957">
-              <caret line="166" column="1" lean-forward="false" selection-start-line="166" selection-start-column="1" selection-end-line="166" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wcoding_website/config/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post_tags.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wcoding_website/posting_system/templatetags/post_tags.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -261,18 +103,13 @@
       <find>template</find>
       <find>blog</find>
       <find>panel</find>
-      <find>`</find>
-      <find>justify</find>
-      <find>image</find>
-      <find>panelbutton</find>
-      <find>div</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="final_devel" />
       </map>
     </option>
     <option name="PUSH_TAGS">
@@ -305,7 +142,6 @@
         <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/share.html" />
         <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/latest_posts.html" />
         <option value="$PROJECT_DIR$/wcoding_website/posting_system/forms.py" />
-        <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/detail.html" />
         <option value="$PROJECT_DIR$/wcoding_website/posting_system/tests.py" />
         <option value="$PROJECT_DIR$/wcoding_website/posting_system/migrations/0005_migrate_traslatable_fields.py" />
         <option value="$PROJECT_DIR$/wcoding_website/posting_system/migrations/0006_migrate_traslatable_fields.py" />
@@ -327,15 +163,16 @@
         <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/main_section.html" />
         <option value="$PROJECT_DIR$/wcoding_website/posting_system/templatetags/post_tags.py" />
         <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/programs_section.html" />
-        <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/about_section.html" />
         <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/static/css/list.css" />
-        <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/static/css/main.css" />
         <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/list.html" />
         <option value="$PROJECT_DIR$/wcoding_website/posting_system/views.py" />
         <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/static/js/main.js" />
+        <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/static/css/main.css" />
+        <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/about_section.html" />
+        <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/detail.html" />
+        <option value="$PROJECT_DIR$/wcoding_website/config/settings/local.py" />
         <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/contact_section.html" />
         <option value="$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/base.html" />
-        <option value="$PROJECT_DIR$/wcoding_website/config/settings/local.py" />
       </list>
     </option>
   </component>
@@ -367,7 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -381,10 +217,32 @@
               <item name="wcoding_website" type="462c0819:PsiDirectoryNode" />
               <item name="wcoding_website" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="wcoding_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wcoding_website" type="462c0819:PsiDirectoryNode" />
+              <item name="wcoding_website" type="462c0819:PsiDirectoryNode" />
+              <item name="wcoding_website" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wcoding_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wcoding_website" type="462c0819:PsiDirectoryNode" />
+              <item name="wcoding_website" type="462c0819:PsiDirectoryNode" />
+              <item name="wcoding_website" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wcoding_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wcoding_website" type="462c0819:PsiDirectoryNode" />
+              <item name="wcoding_website" type="462c0819:PsiDirectoryNode" />
+              <item name="wcoding_website" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="wcoding" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -398,18 +256,19 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)&#10;PostgreSQL" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Nick\PycharmProjects\wcoding_website\wcoding_website\wcoding_website\static\images\main_images" />
-      <recent name="C:\Users\Nick\PycharmProjects\wcoding_website\wcoding_website" />
-      <recent name="C:\Users\Nick\PycharmProjects\wcoding_website\wcoding_website\wcoding_website\static" />
-      <recent name="C:\Users\Nick\PycharmProjects\wcoding_website\wcoding_website\wcoding_website\static\wcoding_website" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Nick\PycharmProjects\wcoding_website\wcoding_website\wcoding_website\static\ckeditor\ckeditor\plugins" />
       <recent name="C:\Users\Nick\PycharmProjects\wcoding_website\wcoding_website\wcoding_website\static\images\main_images" />
       <recent name="C:\Users\Nick\PycharmProjects\wcoding_website\wcoding_website\staticfiles\images\main_images" />
       <recent name="C:\Users\Nick\PycharmProjects\wcoding_website\wcoding_website\wcoding_website\templates\wcoding\post" />
       <recent name="C:\Users\Nick\PycharmProjects\wcoding_website\wcoding_website" />
+      <recent name="C:\Users\Nick\PycharmProjects\wcoding_website\wcoding_website\wcoding_website\static\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nick\PycharmProjects\wcoding_website\wcoding_website\wcoding_website\static\images\wcoding_logo" />
+      <recent name="C:\Users\Nick\PycharmProjects\wcoding_website\wcoding_website\wcoding_website\static\images\main_images" />
+      <recent name="C:\Users\Nick\PycharmProjects\wcoding_website\wcoding_website" />
+      <recent name="C:\Users\Nick\PycharmProjects\wcoding_website\wcoding_website\wcoding_website\static" />
+      <recent name="C:\Users\Nick\PycharmProjects\wcoding_website\wcoding_website\wcoding_website\static\wcoding_website" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -683,7 +542,21 @@
       <option name="project" value="LOCAL" />
       <updated>1509594710313</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="delete trans &quot;W coding Campus&quot; on footer">
+      <created>1509601199131</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1509601199131</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add each section margin-top in main.css">
+      <created>1509602115745</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1509602115745</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -694,29 +567,21 @@
       <configuration name="Test: posting_system" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
   </component>
-  <component name="TodoView" selected-index="4">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1858" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31074035" sideWeight="0.50501114" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31595412" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3274244" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43789473" sideWeight="0.49610245" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30865484" sideWeight="0.49779248" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16407119" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="manage.py@wcoding_website" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35453597" sideWeight="0.49498886" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16573972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3253389" sideWeight="0.49443206" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906458" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906458" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -725,13 +590,26 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31074035" sideWeight="0.50501114" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3253389" sideWeight="0.49443206" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906458" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.49779493" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@wcoding_website" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35453597" sideWeight="0.49498886" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31595412" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3274244" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43789473" sideWeight="0.49610245" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30865484" sideWeight="0.49779248" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16091314" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -825,8 +703,9 @@
     <MESSAGE value="final main carousel" />
     <MESSAGE value="delete old main_window carousel css" />
     <MESSAGE value="just commit" />
-    <MESSAGE value="adding CKEditor plugins&#10;added CKEDITOR_CONFIGS in local.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding CKEditor plugins&#10;added CKEDITOR_CONFIGS in local.py" />
+    <MESSAGE value="delete trans &quot;W coding Campus&quot; on footer" />
+    <MESSAGE value="add each section margin-top in main.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="add each section margin-top in main.css" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -835,7 +714,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wcoding_website/posting_system/migrations/0008_auto_20171014_2306.py" />
     <entry file="file://$PROJECT_DIR$/wcoding_website/posting_system/migrations/0007_auto_20171014_2239.py" />
     <entry file="file://$PROJECT_DIR$/wcoding_website/posting_system/apps.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -860,13 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wcoding_website/posting_system/translation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -956,30 +827,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-          <folding>
-            <marker date="1509606501116" expanded="true" signature="316:437" ph="..." />
-            <marker date="1509606501116" expanded="true" signature="375:424" ph="..." />
-            <marker date="1509606501116" expanded="true" signature="477:1603" ph="..." />
-            <marker date="1509606501116" expanded="true" signature="487:840" ph="{% with comments.count as total_comments ... %}" />
-            <marker date="1509606501116" expanded="true" signature="546:817" ph="..." />
-            <marker date="1509606501116" expanded="true" signature="566:723" ph=" The pluralize template filter displays an &quot;s&quot; if the value is different than 1. The preceding t... %}" />
-            <marker date="1509606501116" expanded="true" signature="850:1233" ph="{% for comment in comments ... %}" />
-            <marker date="1509606501116" expanded="true" signature="912:1145" ph="..." />
-            <marker date="1509606501116" expanded="true" signature="945:1080" ph="..." />
-            <marker date="1509606501116" expanded="true" signature="1243:1593" ph="{% if new_comment ... %}" />
-            <marker date="1509606501116" expanded="true" signature="1414:1572" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-798">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -994,6 +846,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1004,18 +857,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/main_section.html">
+    <entry file="file://$PROJECT_DIR$/wcoding_website/config/settings/local.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wcoding_website/config/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="2964">
+          <caret line="166" column="1" lean-forward="false" selection-start-line="166" selection-start-column="1" selection-end-line="166" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1031,29 +876,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="815">
           <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wcoding_website/posting_system/templatetags/post_tags.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding />
+          <folding>
+            <element signature="e#25#80#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/pagination.html" />
-    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/about_section.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="34" column="55" lean-forward="true" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/403_csrf.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1068,6 +902,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="9" column="60" lean-forward="true" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1075,13 +910,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="367" column="37" lean-forward="true" selection-start-line="367" selection-start-column="37" selection-end-line="367" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1096,6 +924,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2584">
           <caret line="136" column="22" lean-forward="true" selection-start-line="136" selection-start-column="22" selection-end-line="136" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1106,75 +935,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/static/images/favicon.ico" />
+    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/static/images/MainPoster.svg" />
+    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/about_section.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wcoding_website/posting_system/translation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/static/sass/project.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7524">
+          <caret line="396" column="1" lean-forward="true" selection-start-line="396" selection-start-column="1" selection-end-line="396" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wcoding_website/posting_system/templatetags/post_tags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wcoding_website/config/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/users/user_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/contact_section.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+        <state relative-caret-position="361">
+          <caret line="40" column="41" lean-forward="true" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/post/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/main_section.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/templates/wcoding/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1444">
-          <caret line="76" column="14" lean-forward="false" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
+        <state relative-caret-position="1463">
+          <caret line="110" column="68" lean-forward="true" selection-start-line="110" selection-start-column="68" selection-end-line="110" selection-end-column="68" />
           <folding>
-            <marker date="1509606501108" expanded="false" signature="4590:4596" ph="©" />
-            <marker date="1509606501108" expanded="false" signature="4597:4603" ph=" " />
-            <marker date="1509606501108" expanded="false" signature="4625:4631" ph=" " />
-            <marker date="1509606501108" expanded="false" signature="4634:4640" ph=" " />
-            <marker date="1509606501108" expanded="false" signature="4648:4654" ph=" " />
-            <marker date="1509606501108" expanded="false" signature="5301:5316" ph="..." />
-            <marker date="1509606501108" expanded="false" signature="5327:5333" ph=" " />
-            <marker date="1509606501108" expanded="false" signature="5381:5396" ph="..." />
-            <marker date="1509606501108" expanded="false" signature="5407:5413" ph=" " />
-            <marker date="1509606501108" expanded="false" signature="5540:5555" ph="..." />
-            <marker date="1509606501108" expanded="false" signature="5566:5572" ph=" " />
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#626#762#0#HTML" expanded="false" />
+            <element signature="n#block#0;n#!!top" expanded="false" />
+            <element signature="e#1506#1716#0#HTML" expanded="false" />
+            <element signature="n#for#0;n#!!top" expanded="false" />
+            <element signature="n#img#0;n#a#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#img#0;n#a#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#img#0;n#a#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#img#0;n#a#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/youtube/plugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <marker date="1509021539457" expanded="true" signature="8401:8482" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/panelbutton/plugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/html5video/dialogs/html5video.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wcoding_website/wcoding_website/static/ckeditor/ckeditor/plugins/button/plugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding>
-            <marker date="1505298781000" expanded="true" signature="1458:1464" ph=" " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wcoding_website/config/settings/local.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1957">
-          <caret line="166" column="1" lean-forward="false" selection-start-line="166" selection-start-column="1" selection-end-line="166" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>

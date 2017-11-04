@@ -49,15 +49,19 @@
     {% endfor %}
 
     {# social Link #}
+    <!-- naver social_logo -->
     <a href="http://wcoding.blog.me/" target="_blank"><img class="sociallink1 naver_logo" src="{% static 'images/social_logo/NV_Gray.svg' %}" alt="Naver Logo"
     onmouseover="naverOnHover();" onmouseout="naverOffHover();"></a>
 
+    <!-- youtube social_logo-->
     <a href="https://www.youtube.com/channel/UCX9O03vi_b6hUzrj0RZ3HxA" target="_blank"><img class="sociallink1 youtube_logo" src="{% static 'images/social_logo/YT_Gray.svg' %}" alt="Youtube Logo"
     onmouseover="youtubeOnHover();" onmouseout="youtubeOffHover();"></a>
 
+    <!-- facebook social_logo-->
     <a href="https://www.facebook.com/wcoding/" target="_blank"><img class="sociallink1 facebook_logo" src="{% static 'images/social_logo/FB_Gray.svg' %}" alt="Facebook Logo"
     onmouseover="facebookOnHover();" onmouseout="facebookOffHover();"></a>
 
+    <!-- instagram social_logo -->
     <a href="https://www.instagram.com/wcoding/" target="_blank"><img class="sociallink1 instagram_logo" src="{% static 'images/social_logo/IG_Gray.svg' %}" alt="Instagram Logo"
     onmouseover="instagramOnHover();" onmouseout="instagramOffHover();"></a>
 </div>
@@ -101,10 +105,10 @@
         <div class="col-md-2">
             <h4>EXPLORE US</h4>
             <div class="footer_line"></div>
-            <h5><a href="{% url 'index' %}/#about">ABOUT</a></h5>
-            <h5><a href="{% url 'index' %}/#programs">PROGRAMS</a></h5>
-            <h5><a href="{% url 'index' %}/#news">NEWS & EVENTS</a></h5>
-            <h5><a href="{% url 'index' %}/#contact">CONTACT</a></h5>
+            <h5><a href="{% url 'index' %}#about">ABOUT</a></h5>
+            <h5><a href="{% url 'index' %}#programs">PROGRAMS</a></h5>
+            <h5><a href="{% url 'index' %}#news">NEWS & EVENTS</a></h5>
+            <h5><a href="{% url 'index' %}#contact">CONTACT</a></h5>
         </div>
 
         <div class="col-md-4">
