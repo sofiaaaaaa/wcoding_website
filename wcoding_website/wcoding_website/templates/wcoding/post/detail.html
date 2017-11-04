@@ -5,9 +5,7 @@
 {% block content %}
     <div class="container">
         <h1>{{ post.title }}</h1>
-        <p class="date">
-            Published {{ post.publish }} by {{ post.author }}
-        </p>
+
         {{ post.body|safe|linebreaks }}
         <p>
             <a href="{% url "post:post_share" post.id %}">
