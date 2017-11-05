@@ -99,12 +99,11 @@
 /* footer */
 .footer_line {
     height: 3px;
-    background: #FE6E00;
-    background: -webkit-linear-gradient(left, #FE6E00, #FF593D);
-    background: -o-linear-gradient(right, #FE6E00, #FF593D);
-    background: -moz-linear-gradient(right, #FE6E00, #FF593D);
-    background: linear-gradient(to right, #FE6E00, #FF593D);
-    color: #ffffff;
+    background-image: -webkit-linear-gradient(left, #FE6E00, #FF593D);
+    background-image: -o-linear-gradient(right, #FE6E00, #FF593D);
+    background-image: -moz-linear-gradient(right, #FE6E00, #FF593D);
+    background-image: linear-gradient(to right, #FE6E00, #FF593D);
+    border: 0px;
 }
 
 /* bootstrap */

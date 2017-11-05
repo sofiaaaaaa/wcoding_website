@@ -1,0 +1,137 @@
+{% extends 'wcoding/base.html' %}
+
+{% load post_tags %}
+{% load staticfiles %}
+{% load i18n %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/list.css' %}">
+{% endblock css %}
+
+{% block title %}Programs{% endblock title %}
+
+{% block content %}
+    {#  show Full-time course list  #}
+    <div class="container">
+        <div class="panel panel-default">
+            <div class="panel-body">{% trans "Full Time Course" %}</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            {% show_fulltime_course 10 as fulltime_course %}
+            {% for class in fulltime_course %}
+                <div class="col-md-4">
+                    <div class="panel panel-default text-center">
+                        <div class="panel-heading">
+                            <img src="{{ class.thumbnail_image.url }}">
+                        </div>
+                        <div class="panel-body">
+                            {{ class.title }}
+                        </div>
+                        <div class="panel-body">
+                            {{ class.body|safe|truncatewords:30 }}
+                        </div>
+                        <div class="panel-footer">
+                            <a href="{{ class.get_absolute_url }}">See more</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    {#  show Part-time course list  #}
+    <div class="container">
+        <div class="panel panel-default">
+            <div class="panel-body">{% trans "Part Time Course" %}</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            {% show_parttime_course 10 as parttime_course %}
+            {% for class in parttime_course %}
+                <div class="col-md-4">
+                    <div class="panel panel-default text-center">
+                        <div class="panel-heading">
+                            <img src="{{ class.thumbnail_image.url }}">
+                        </div>
+                        <div class="panel-body">
+                            {{ class.title }}
+                        </div>
+                        <div class="panel-body">
+                            {{ class.body|safe|truncatewords:30 }}
+                        </div>
+                        <div class="panel-footer">
+                            <a href="{{ class.get_absolute_url }}">See more</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    {# show Camp list #}
+    <div class="container">
+        <div class="panel panel-default">
+            <div class="panel-body">{% trans "Camp" %}</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            {% show_camps 10 as camps %}
+            {% for camp in camps %}
+                <div class="col-md-4">
+                    <div class="panel panel-default text-center">
+                        <div class="panel-heading">
+                            <img src="{{ camp.thumbnail_image.url }}">
+                        </div>
+                        <div class="panel-body">
+                            {{ camp.title }}
+                        </div>
+                        <div class="panel-body">
+                            {{ camp.body|safe|truncatewords:30 }}
+                        </div>
+                        <div class="panel-footer">
+                            <a href="{{ camp.get_absolute_url }}">See more</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    {#  show best pick list  #}
+    <div class="container">
+        <div class="panel panel-default">
+            <div class="panel-body">{% trans "Best Picks" %}</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            {% show_best_picks 10 as best_picks %}
+            {% for best_pick in best_picks %}
+                <div class="col-md-4">
+                    <div class="panel panel-default text-center">
+                        <div class="panel-heading">
+                            <img src="{{ best_pick.thumbnail_image.url }}">
+                        </div>
+                        <div class="panel-body">
+                            {{ best_pick.title }}
+                        </div>
+                        <div class="panel-body">
+                            {{ best_pick.body|safe|truncatewords:30 }}
+                        </div>
+                        <div class="panel-footer">
+                            <a href="{{ best_pick.get_absolute_url }}">See more</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock content %}
